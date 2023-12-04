@@ -1,14 +1,11 @@
 // Font Import
 @import "../../fonts/urbanist/urbanist.css";
-
 // Bootstrap Configuration
 @import "../../../../node_modules/bootstrap/scss/mixins";
-
 // Font Variables
 $font-family-base: "Urbanist", sans-serif;
 $font-size-base: 0.85rem;
 $headings-font-weight: 600;
-
 // Font Specific Settings
 * {
   word-spacing: normal !important;

@@ -250,7 +250,6 @@ $brand-colors: ("dropbox": $dropbox,
   "skype-alt": $skype,
   "telegram-alt": $telegram,
 ) !default;
-
 //Text Emphasis
 $primary-text-emphasis:   shade-color($primary, 30%) !default;
 $secondary-text-emphasis: shade-color($secondary, 30%) !default;
@@ -260,7 +259,6 @@ $warning-text-emphasis:   shade-color($warning, 30%) !default;
 $danger-text-emphasis:    shade-color($danger, 30%) !default;
 $light-text-emphasis:     shade-color($light, 30%) !default;
 $dark-text-emphasis:      shade-color($dark, 30%) !default;
-
 //BG Subtle
 $primary-bg-subtle:       tint-color($primary, 90.5%) !default;
 $secondary-bg-subtle:     tint-color($secondary, 90.5%) !default;
@@ -271,7 +269,6 @@ $danger-bg-subtle:        tint-color($danger, 90.5%) !default;
 $light-bg-subtle:         mix($gray-200, $white) !default;
 $dark-bg-subtle:          tint-color($dark, 90.5%) !default;
 $primary-subtle:          tint-color($primary, 90.5%) !default;
-
 //BG Soft
 $primary-soft:       tint-color($primary, 90.5%) !default;
 $blue-soft:          tint-color($blue, 90.5%) !default;
@@ -290,7 +287,6 @@ $aqua-soft:          tint-color($aqua, 90.5%) !default;
 $navy-soft:          tint-color($navy, 90.5%) !default;
 $ash-soft:           tint-color($ash, 90.5%) !default;
 $gray-soft:          $border-light !default;
-
 //BG Pale
 $primary-pale:         tint-color($primary, 84%) !default;
 $blue-pale:            tint-color($blue, 84%) !default;
@@ -309,7 +305,6 @@ $aqua-pale:            tint-color($aqua, 84%) !default;
 $navy-pale:            tint-color($navy, 84%) !default;
 $dark-pale:            tint-color($dark, 84%) !default;
 $ash-pale:             $border-light !default;
-
 //Bullet Soft
 $primary-bullet-soft:         tint-color($primary, 82%) !default;
 $blue-bullet-soft:            tint-color($blue, 82%) !default;
@@ -327,7 +322,6 @@ $leaf-bullet-soft:            tint-color($leaf, 82%) !default;
 $aqua-bullet-soft:            tint-color($aqua, 82%) !default;
 $navy-bullet-soft:            tint-color($navy, 82%) !default;
 $ash-bullet-soft:             tint-color($ash, 82%) !default;
-
 //Icon Fill
 $primary-icon-fill:         tint-color($primary, 40%) !default;
 $blue-icon-fill:            tint-color($blue, 40%) !default;
@@ -345,7 +339,6 @@ $leaf-icon-fill:            tint-color($leaf, 40%) !default;
 $aqua-icon-fill:            tint-color($aqua, 40%) !default;
 $navy-icon-fill:            tint-color($navy, 40%) !default;
 $ash-icon-fill:             tint-color($ash, 40%) !default;
-
 //Icon Solid Fill
 $primary-icon-solid-fill:         tint-color($primary, 60%) !default;
 $blue-icon-solid-fill:            tint-color($blue, 60%) !default;
@@ -363,7 +356,6 @@ $leaf-icon-solid-fill:            tint-color($leaf, 60%) !default;
 $aqua-icon-solid-fill:            tint-color($aqua, 60%) !default;
 $navy-icon-solid-fill:            tint-color($navy, 60%) !default;
 $ash-icon-solid-fill:             tint-color($ash, 60%) !default;
-
 //Border Subtle
 $primary-border-subtle:   tint-color($primary, 70%) !default;
 $secondary-border-subtle: tint-color($secondary, 70%) !default;
@@ -373,7 +365,6 @@ $warning-border-subtle:   tint-color($warning, 70%) !default;
 $danger-border-subtle:    tint-color($danger, 70%) !default;
 $light-text-emphasis:     mix($gray-300, $white) !default;
 $dark-border-subtle:      tint-color($dark, 70%) !default;
-
 //Border Soft
 $primary-border-soft:   tint-color($primary, 70%) !default;
 $blue-border-soft:      tint-color($blue, 70%) !default;
@@ -901,7 +892,6 @@ $table-caption-color: $text-muted !default;
 //----------------------------------------------------------//
 //	CODE
 //----------------------------------------------------------//
-
 $pre-font-size: 0.7rem !default;
 $code-color: $body-color !default;
 $code-font-size: 0.65rem !default;

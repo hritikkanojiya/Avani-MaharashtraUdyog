@@ -1,10 +1,8 @@
 // Font Import
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,300;1,400;1,500;1,600;1,700');
 @import "../../fonts/space/space.css";
-
 // Bootstrap Configuration
 @import "../../../../node_modules/bootstrap/scss/mixins";
-
 // Font Variables
 $font-family-base: 'Space Grotesk', sans-serif;
 $font-family-serif: 'IBM Plex Serif', serif;
@@ -17,7 +15,6 @@ $btn-padding-top-sm: 0.45rem;
 $btn-padding-bottom-sm: 0.35rem;
 $btn-padding-top-lg: 0.7rem;
 $btn-padding-bottom-lg: 0.6rem;
-
 // Font Specific Settings
 * {
   word-spacing: normal !important;
