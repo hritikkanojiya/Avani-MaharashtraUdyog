@@ -31,15 +31,6 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/colors/grape.css">
     <link rel="preload" href="./assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'">
-    <style>
-    .swiper-controls .swiper-navigation .swiper-button.swiper-button-prev {
-        left: -5rem !important;
-    }
-
-    .swiper-controls .swiper-navigation .swiper-button.swiper-button-next {
-        right: -5rem !important;
-    }
-    </style>
 </head>
 
 <body>
@@ -129,8 +120,7 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                         style="top: 0; left: -1.7rem;"></div>
                     <div class="swiper-container dots-closer blog grid-view mb-6" data-margin="0" data-dots="true"
                         data-items-xl="3" data-items-md="2" data-items-xs="1" data-speed="500" data-autoplay="true"
-                        data-autoplaytime="3000" data-loop="true" data-nav="true" data-drag="true"
-                        data-updateresize="true">
+                        data-autoplaytime="3000" data-loop="true" data-drag="true" data-updateresize="true">
                         <div class="swiper">
                             <div class="swiper-wrapper">
                                 <?php
