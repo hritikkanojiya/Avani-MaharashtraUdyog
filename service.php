@@ -237,18 +237,6 @@
                 </div>
             </div>
         </section>
-        <section class="wrapper bg-soft-primary">
-            <div class="container pt-14 pb-18 pt-md-16 pb-md-22 text-center">
-                <div class="row">
-                    <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
-                        <h2 class="fs-15 text-uppercase text-muted mb-3">Our Pricing</h2>
-                        <h3 class="display-4 mb-15 mb-md-6 px-lg-10">We offer great prices, premium products and quality
-                            service for
-                            your business.</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
         <section class="wrapper bg-light">
             <div class="container py-14 py-md-16">
                 <div class="pricing-wrapper position-relative mt-n22 mt-md-n24">
