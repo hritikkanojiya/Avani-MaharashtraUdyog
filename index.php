@@ -32,9 +32,9 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
     <link rel="stylesheet" href="./assets/css/colors/grape.css">
     <link rel="preload" href="./assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'">
     <style>
-    ::-webkit-scrollbar {
-        display: none;
-    }
+        ::-webkit-scrollbar {
+            display: none;
+        }
     </style>
 </head>
 
@@ -45,8 +45,7 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                 <div class="container flex-lg-row flex-nowrap align-items-center">
                     <div class="navbar-brand py-3 py-md-0">
                         <a href="index.php">
-                            <img class="img-fluid my-lg-3" width="65px" src="assets/img/logo.png"
-                                srcset="./assets/img/logo.png 2x" alt="" />
+                            <img class="img-fluid my-lg-3" width="65px" src="assets/img/logo.png" srcset="./assets/img/logo.png 2x" alt="" />
                         </a>
                     </div>
                     <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -71,13 +70,9 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                     <a href="#" class="link-inverse"></a>
                                     <br />+91 98200 30976<br />
                                     <nav class="nav social social-white d-flex gap-2">
-                                        <a
-                                            href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i
-                                                class="uil uil-facebook-f"></i></a>
-                                        <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i
-                                                class="uil uil-instagram"></i></a>
-                                        <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i
-                                                class="uil uil-youtube"></i></a>
+                                        <a href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i class="uil uil-facebook-f"></i></a>
+                                        <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i class="uil uil-instagram"></i></a>
+                                        <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i class="uil uil-youtube"></i></a>
                                     </nav>
                                 </div>
                             </div>
@@ -94,19 +89,15 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
             </nav>
         </header>
         <section class="section-frame br-fix overflow-hidden">
-            <div class="wrapper image-wrapper bg-cover bg-image bg-overlay bg-overlay-500"
-                data-image-src="./assets/img/extras/home_page.jpg">
+            <div class="wrapper image-wrapper bg-cover bg-image bg-overlay bg-overlay-500" data-image-src="./assets/img/extras/home_page.jpg">
                 <div class="container pt-15 pt-lg-18 pb-17 pb-lg-19 text-center">
                     <div class="row">
-                        <div class="col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto" data-cues="zoomIn"
-                            data-group="page-title" data-interval="-200" data-delay="500">
+                        <div class="col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto" data-cues="zoomIn" data-group="page-title" data-interval="-200" data-delay="500">
                             <h2 class="h6 fs-25 text-uppercase ls-xl text-white mb-5">उदयोग कर उदयोग
                             </h2>
                             <h3 class="display-1 fs-38 text-white mb-7">Maharashtra Udyog facilitates the expansion of
                                 businesses by connecting franchisors and potential franchisees.</h3>
-                            <a href="https://www.youtube.com/watch?v=yOigqgubXx8"
-                                class="btn btn-circle btn-white btn-play ripple mx-auto" data-glightbox><i
-                                    class="icn-caret-right"></i></a>
+                            <a href="https://www.youtube.com/watch?v=yOigqgubXx8" class="btn btn-circle btn-white btn-play ripple mx-auto" data-glightbox><i class="icn-caret-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -129,11 +120,8 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                     </div>
                 </div>
                 <div class="position-relative">
-                    <div class="shape bg-dot primary rellax w-17 h-20" data-rellax-speed="1"
-                        style="top: 0; left: -1.7rem;"></div>
-                    <div class="swiper-container dots-closer blog grid-view mb-6" data-margin="0" data-dots="true"
-                        data-items-xl="3" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true"
-                        data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
+                    <div class="shape bg-dot primary rellax w-17 h-20" data-rellax-speed="1" style="top: 0; left: -1.7rem;"></div>
+                    <div class="swiper-container dots-closer blog grid-view mb-6" data-margin="0" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true" data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
                         <div class="swiper">
                             <div class="swiper-wrapper">
                                 <?php
@@ -176,11 +164,8 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                     </div>
                 </div>
                 <div class="position-relative pt-10">
-                    <div class="shape bg-dot primary rellax w-17 h-20" data-rellax-speed="1"
-                        style="top: 0; left: -1.7rem;"></div>
-                    <div class="swiper-container dots-closer blog grid-view" data-margin="0" data-dots="true"
-                        data-items-xl="3" data-items-md="2" data-items-xs="1" data-speed="500" data-autoplay="true"
-                        data-autoplaytime="3000" data-loop="true" data-drag="true" data-updateresize="true">
+                    <div class="shape bg-dot primary rellax w-17 h-20" data-rellax-speed="1" style="top: 0; left: -1.7rem;"></div>
+                    <div class="swiper-container dots-closer blog grid-view" data-margin="0" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1" data-speed="500" data-autoplay="true" data-autoplaytime="3000" data-loop="true" data-drag="true" data-updateresize="true">
                         <div class="swiper">
                             <div class="swiper-wrapper">
                                 <?php
@@ -235,9 +220,7 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                 </div>
             </div>
             <div class="container-fluid px-md-6">
-                <div class="swiper-container blog grid-view mb-15" data-margin="30" data-nav="true" data-dots="true"
-                    data-items-xxl="3" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true"
-                    data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
+                <div class="swiper-container blog grid-view mb-15" data-margin="30" data-nav="true" data-dots="true" data-items-xxl="3" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true" data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
                     <div class="swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -278,17 +261,13 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
             <div class="row gy-6 gy-lg-0">
                 <div class="col-md-4 col-lg-4">
                     <div class="widget">
-                        <img class="img-fluid mb-3" width="100px" src="./assets/img/logo.png"
-                            srcset="./assets/img/logo.png 2x" alt="" />
+                        <img class="img-fluid mb-3" width="100px" src="./assets/img/logo.png" srcset="./assets/img/logo.png 2x" alt="" />
                         <p class="mb-4">MaharashtraUdyog
                         </p>
                         <nav class="nav social social-white d-flex gap-2">
-                            <a href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i
-                                    class="uil uil-facebook-f"></i></a>
-                            <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i
-                                    class="uil uil-instagram"></i></a>
-                            <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i
-                                    class="uil uil-youtube"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i class="uil uil-facebook-f"></i></a>
+                            <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i class="uil uil-instagram"></i></a>
+                            <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i class="uil uil-youtube"></i></a>
                         </nav>
                     </div>
                 </div>
