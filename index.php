@@ -120,13 +120,13 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                         style="top: 0; left: -1.7rem;"></div>
                     <div class="swiper-container dots-closer blog grid-view mb-6" data-margin="0" data-dots="true"
                         data-items-xl="3" data-items-md="2" data-items-xs="1" data-speed="500" data-autoplay="true"
-                        data-autoplaytime="3000" data-loop="true" data-drag="true" data-updateresize="true">
+                        data-autoplaytime="300000" data-loop="true" data-drag="true" data-updateresize="true">
                         <div class="swiper">
                             <div class="swiper-wrapper">
                                 <?php
                                 $swiper_dom = "";
                                 foreach ($franchise as $key => $value) {
-                                    $swiper_dom .= '<div class="swiper-slide" style="height: 750px; min-height: 750px;">
+                                    $swiper_dom .= '<div class="swiper-slide">
                                         <div class="item-inner">
                                             <article>
                                                 <div class="card">
@@ -143,7 +143,7 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                             </h2>
                                                         </div>
                                                         <div class="post-content">
-                                                            <p style="max-height:150px; overflow: auto;">' . $value['franchise_details'] . '</p>
+                                                            <p style="min-height:150px; max-height:200px; overflow: auto;">' . $value['franchise_details'] . '</p>
                                                         </div>
                                                     </div>
                                                     <div class="card-footer text-center">
