@@ -119,6 +119,53 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                     <div class="shape bg-dot primary rellax w-17 h-20" data-rellax-speed="1"
                         style="top: 0; left: -1.7rem;"></div>
                     <div class="swiper-container dots-closer blog grid-view mb-6" data-margin="0" data-dots="true"
+                        data-items-xl="3" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true"
+                        data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <?php
+                                $swiper_dom = "";
+                                foreach ($franchise as $key => $value) {
+                                    $swiper_dom .= '<div class="swiper-slide">
+                                        <div class="item-inner">
+                                            <article>
+                                                <div class="card">
+                                                    <figure class="card-img-top overlay overlay-1 hover-scale">
+                                                        <a href="https://maharashtraudyog.com/franchise.php?franchise_id=' . $value['franchise_id'] . '">
+                                                            <img class="img-fluid" src="https://cdn.maharashtraudyog.com/public/uploads/franchise/logos/' . $value['logo'] . '" alt="" /></a>
+                                                        <figcaption>
+                                                            <h5 class="from-top mb-0">Read More</h5>
+                                                        </figcaption>
+                                                    </figure>
+                                                    <div class="card-body">
+                                                        <div class="post-header">
+                                                            <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="https://maharashtraudyog.com/franchise.php?franchise_id=' . $value['franchise_id'] . '">' . $value['name'] . '</a>
+                                                            </h2>
+                                                        </div>
+                                                        <div class="post-content">
+                                                            <p style="min-height:150px; max-height:150px; overflow: auto;">' . $value['franchise_details'] . '</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-footer text-center">
+                                                        <a href="https://maharashtraudyog.com/franchise.php?franchise_id=' . $value['franchise_id'] . '" class="btn btn-sm btn-outline-gradient gradient-6 rounded-pill">
+                                                            <span>Apply Now</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>';
+                                }
+                                echo $swiper_dom;
+                                ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative pt-10">
+                    <div class="shape bg-dot primary rellax w-17 h-20" data-rellax-speed="1"
+                        style="top: 0; left: -1.7rem;"></div>
+                    <div class="swiper-container dots-closer blog grid-view mb-15" data-margin="0" data-dots="true"
                         data-items-xl="3" data-items-md="2" data-items-xs="1" data-speed="500" data-autoplay="true"
                         data-autoplaytime="3000" data-loop="true" data-drag="true" data-updateresize="true">
                         <div class="swiper">

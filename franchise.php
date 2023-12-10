@@ -23,11 +23,11 @@ if (isset($_POST['name'])) {
         echo "<script>alert('Something went wrong')</script>";
     }
 
-    header('Location: https://maharahshtraudyog.com?franchise.php?franchise_id=' . $_GET["franchise_id"]);
+    header('Location: https://maharashtraudyog.com?franchise.php?franchise_id=' . $_GET["franchise_id"]);
 }
 
 if (!isset($_GET['franchise_id'])) {
-    header('Location: https://maharahshtraudyog.com');
+    header('Location: https://maharashtraudyog.com');
 }
 
 $ch = curl_init();
@@ -48,7 +48,7 @@ $franchise = array();
 if (isset($curl_response['status']) && $curl_response['status'] == "success") {
     $franchise = $curl_response['franchise'];
 } else {
-    header('Location: https://maharahshtraudyog.com');
+    header('Location: https://maharashtraudyog.com');
 }
 
 ?>
