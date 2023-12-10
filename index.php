@@ -143,7 +143,7 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                             </h2>
                                                         </div>
                                                         <div class="post-content">
-                                                            <p style="min-height:150px; max-height:200px; overflow: auto;">' . $value['franchise_details'] . '</p>
+                                                            <p style="min-height:150px; max-height:150px; overflow: auto;">' . $value['franchise_details'] . '</p>
                                                         </div>
                                                     </div>
                                                     <div class="card-footer text-center">
