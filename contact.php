@@ -15,19 +15,15 @@
         <header class="wrapper bg-gray">
             <nav class="navbar navbar-expand-lg center-logo transparent navbar-light">
                 <div class="container flex-lg-row flex-nowrap align-items-center">
-                    <div class="navbar-brand w-100">
+                    <div class="navbar-brand py-3 py-md-0">
                         <a href="index.php">
-                            <img class="img-fluid my-3" width="65px" src="assets/img/logo.png" srcset="./assets/img/logo.png 2x" alt="" />
+                            <img class="img-fluid my-lg-3" width="65px" src="assets/img/logo.png" srcset="./assets/img/logo.png 2x" alt="" />
                         </a>
                     </div>
                     <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
-                        <div class="offcanvas-header d-lg-none">
-                            <h3 class="text-white fs-30 mb-0">Sandbox</h3>
-                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+                        <div class="offcanvas-body m-lg-auto d-flex flex-column h-100 py-10 py-md-0">
                             <ul class="navbar-nav">
-                                <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="index.php#home">Home</a></li>
                                 <li class="nav-item"><a class="nav-link" href="index.php#gallery">Gallery</a>
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="service.php">Services</a>
@@ -38,25 +34,34 @@
                             </ul>
                             <div class="offcanvas-footer d-lg-none">
                                 <div>
-                                    <a href="" class="link-inverse"></a>
-                                    <br /> 00 (123) 456 78 90 <br />
-                                    <nav class="nav social social-white mt-4">
-                                        <a href="#"><i class="uil uil-twitter"></i></a>
-                                        <a href="#"><i class="uil uil-facebook-f"></i></a>
-                                        <a href="#"><i class="uil uil-dribbble"></i></a>
-                                        <a href="#"><i class="uil uil-instagram"></i></a>
-                                        <a href="#"><i class="uil uil-youtube"></i></a>
+                                    <h4 class="widget-title text-white mb-3">Get in Touch</h4>
+                                    <address class="pe-xl-15 pe-xxl-17 mb-0">1206, Navjivan Commercial Co-Op Society,
+                                        Gate
+                                        no.2, Building
+                                        No. 3, Lamington Road, Mumbai Central, Mumbai 400008
+                                    </address>
+                                    <a href="#" class="link-inverse"></a>
+                                    <br />+91 98200 30976<br />
+                                    <nav class="nav social social-white d-flex gap-2">
+                                        <a href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i class="uil uil-facebook-f"></i></a>
+                                        <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i class="uil uil-instagram"></i></a>
+                                        <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i class="uil uil-youtube"></i></a>
                                     </nav>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="navbar-other w-100 d-flex ms-auto">
+                    <div class="navbar-other ms-lg-4">
+                        <ul class="navbar-nav flex-row align-items-center ms-auto">
+                            <li class="nav-item d-lg-none">
+                                <button class="hamburger offcanvas-nav-btn"><span></span></button>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </nav>
         </header>
-        <section class="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 text-white" data-image-src="assets/img/photos/bg3.jpg">
+        <section class="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 text-white" data-image-src="assets/img/extras/service_hero.jpeg">
             <div class="container pt-17 pb-20 pt-md-19 pb-md-21 text-center">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">

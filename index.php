@@ -224,7 +224,7 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                 </div>
             </div>
         </section>
-        <section class="wrapper bg-light">
+        <section class="wrapper bg-light" id="gallery">
             <div class="container py-10">
                 <div class="row">
                     <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto text-center mb-3">
