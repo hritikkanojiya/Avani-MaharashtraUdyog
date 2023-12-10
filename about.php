@@ -70,8 +70,7 @@
             <div class="container pt-10 pt-md-14 text-center">
                 <div class="row">
                     <div class="col-xl-6 mx-auto">
-                        <h1 class="display-1 mb-4">Hello! This is Sandbox</h1>
-                        <p class="lead fs-lg mb-0">A company turning ideas into beautiful things.</p>
+                        <h1 class="display-1 mb-4">उदयोग कर उदयोग</h1>
                     </div>
                 </div>
             </div>
@@ -101,26 +100,29 @@
                         <img src="assets/img/icons/lineal/megaphone.svg" class="svg-inject icon-svg icon-svg-md mb-4"
                             alt="" />
                         <h2 class="display-4 mb-3">Who Are We?</h2>
-                        <p class="lead fs-lg">We are a digital and branding company that believes in the power of
-                            creative strategy and along with great design.</p>
-                        <p class="mb-6">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                            mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus
-                            magna, vel scelerisque nisl consectetur et.</p>
+                        <p class="mb-6">Whether you're a company seeking franchises or a franchisee searching for
+                            the perfect company, Maharashtra Udyog is your ultimate destination for all
+                            franchise-related needs. Our platform seamlessly connects businesses and entrepreneurs,
+                            providing a comprehensive solution for expanding your franchise network. </p>
+                        <p class="mb-6">Experience the
+                            convenience of finding the right match for your franchise aspirations, making Maharashtra
+                            Udyog your go-to destination in the dynamic world of franchising. Elevate your business
+                            journey with us where companies and franchisees meet for success.</p>
                         <div class="row gy-3 gx-xl-8">
                             <div class="col-xl-6">
                                 <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                                    <li><span><i class="uil uil-check"></i></span><span>Aenean eu leo quam ornare
-                                            curabitur blandit tempus.</span></li>
-                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Nullam quis risus
-                                            eget urna mollis ornare donec elit.</span></li>
+                                    <li><span><i class="uil uil-check"></i></span><span>Franchise needs meet company
+                                            aspirations at Maharashtra Udyog</span></li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Unlock endless
+                                            franchise opportunities or find your ideal company match.</span></li>
                                 </ul>
                             </div>
                             <div class="col-xl-6">
                                 <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                                    <li><span><i class="uil uil-check"></i></span><span>Etiam porta sem malesuada magna
-                                            mollis euismod.</span></li>
-                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Fermentum massa
-                                            vivamus faucibus amet euismod.</span></li>
+                                    <li><span><i class="uil uil-check"></i></span><span>Your ultimate destination for
+                                            seamless franchisee and company connections.</span></li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Connect with
+                                            franchises or find a company effortlessly here.</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -145,7 +147,8 @@
                                     </div>
                                     <div>
                                         <h4 class="mb-1">Collect Ideas</h4>
-                                        <p class="mb-0">Nulla vitae elit libero pharetra augue dapibus.</p>
+                                        <p class="mb-0">We offer you the ease to choose a Franchise or become one for a
+                                            company from the soothing comfort of your office or home.</p>
                                     </div>
                                 </div>
                             </div>
@@ -159,7 +162,9 @@
                                     </div>
                                     <div>
                                         <h4 class="mb-1">Data Analysis</h4>
-                                        <p class="mb-0">Vivamus sagittis lacus vel augue laoreet.</p>
+                                        <p class="mb-0">By the courtesy of the huge database of our portal, all the
+                                            information of your ideal Franchisee who is located nearest to you is now
+                                            just one click away.</p>
                                     </div>
                                 </div>
                             </div>
@@ -173,7 +178,8 @@
                                     </div>
                                     <div>
                                         <h4 class="mb-1">Finalize Product</h4>
-                                        <p class="mb-0">Cras mattis consectetur purus sit amet.</p>
+                                        <p class="mb-0">Maharashtra Udyog has created a platform to bring franchisors
+                                            and prospective franchisees together to expand their business.</p>
                                     </div>
                                 </div>
                             </div>
@@ -181,15 +187,22 @@
                     </div>
                     <div class="col-lg-6">
                         <h2 class="display-6 mb-3">How It Works?</h2>
-                        <p class="lead fs-lg pe-lg-5">Find out everything you need to know and more about how we create
-                            our business process models.</p>
-                        <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta
-                            sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                            Nullam quis risus eget urna mollis ornare.</p>
-                        <p class="mb-6">Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula
-                            porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Sed posuere
-                            consectetur est at lobortis. Vestibulum id ligula porta felis.</p>
-                        <a href="#" class="btn btn-primary rounded-pill mb-0">Learn More</a>
+                        <p>Delve into a diverse array of industrial sectors through our portal,
+                            encompassing Agriculture, Fashion, Technology, Real Estate, Health, and more. With the
+                            convenience of your home or office, explore and choose a franchise or become one, empowered
+                            by our extensive database.</p>
+                        <p class="mb-6">Maharashtra Udyog acts as a bridge, connecting franchisors with
+                            potential franchisees, fostering business expansion. Utilize our platform to effortlessly
+                            access information on ideal franchises nearest to you, just a click away. Seize the
+                            opportunity to kickstart your entrepreneurial journey or elevate your brand by investing in
+                            a well-designed franchise system, ensuring brand recognition and future success</p>
+                        <p class="mb-6">
+                            Maharashtra Udyog acts as a dynamic platform, uniting franchisors and potential franchisees,
+                            fostering seamless business expansion. Navigate through our user-friendly interface to
+                            discover the ideal franchise closest to you, just a click away. Embrace the opportunity to
+                            launch your entrepreneurial venture or enhance your brand's reach by investing in a
+                            sophisticated franchise system, ensuring enduring brand recognition and success
+                        </p>
                     </div>
                 </div>
             </div>
@@ -209,8 +222,8 @@
                             <div class="shape rounded bg-soft-blue rellax d-md-block" data-rellax-speed="0"
                                 style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
                             <div class="card">
-                                <figure class="card-img-top"><img class="img-fluid" src="./assets/img/avatars/t1.jpg"
-                                        srcset="./assets/img/avatars/t1@2x.jpg 2x" alt="" /></figure>
+                                <figure class="card-img-top"><img class="img-fluid" src="./assets/img/extras/anil.jpeg"
+                                        alt="" /></figure>
                                 <div class="card-body px-6 py-5">
                                     <h4 class="mb-1">Anil Phondekar</h4>
                                     <p class="mb-0">CEO</p>
