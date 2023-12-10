@@ -4,11 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="An impressive and flawless site template that includes various UI elements and countless features, attractive ready-made blocks and rich pages, basically everything you need to create a unique and professional website.">
-    <meta name="keywords" content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
-    <meta name="author" content="elemis">
-    <title>Sandbox - Modern & Multipurpose Bootstrap 5 Template</title>
-    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <title>MaharashtraUdyog</title>
+    <link rel="shortcut icon" href="./assets/img/logo.png">
     <link rel="stylesheet" href="assets/css/plugins.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -20,13 +17,15 @@
                 <div class="container flex-lg-row flex-nowrap align-items-center">
                     <div class="navbar-brand w-100">
                         <a href="index.php">
-                            <img src="assets/img/new_logo.png" srcset="./assets/img/new_logo.png 2x" alt="" />
+                            <img class="img-fluid" width="50px" src="assets/img/logo.png"
+                                srcset="./assets/img/logo.png 2x" alt="" />
                         </a>
                     </div>
                     <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
                         <div class="offcanvas-header d-lg-none">
                             <h3 class="text-white fs-30 mb-0">Sandbox</h3>
-                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
                             <ul class="navbar-nav">
@@ -70,24 +69,31 @@
                     </div>
                 </div>
             </div>
-            <figure class="position-absoute" style="bottom: 0; left: 0; z-index: 2;"><img src="assets/img/photos/bg12.jpg" alt="" /></figure>
+            <figure class="position-absoute" style="bottom: 0; left: 0; z-index: 2;"><img
+                    src="assets/img/photos/bg12.jpg" alt="" /></figure>
         </section>
         <section class="wrapper bg-light angled upper-end lower-end">
             <div class="container py-14 pb-0">
                 <div class="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center">
                     <div class="col-lg-6 position-relative order-lg-2">
-                        <div class="shape bg-dot primary rellax w-16 h-20" data-rellax-speed="1" style="top: 3rem; left: 5.5rem"></div>
+                        <div class="shape bg-dot primary rellax w-16 h-20" data-rellax-speed="1"
+                            style="top: 3rem; left: 5.5rem"></div>
                         <div class="overlap-grid overlap-grid-2">
                             <div class="item">
-                                <figure class="rounded shadow"><img src="./assets/img/gallery/IMG_0221.JPG" srcset="./assets/img/gallery/IMG_0221.JPG 2x" alt=""></figure>
+                                <figure class="rounded shadow"><img src="./assets/img/gallery/IMG_0221.JPG"
+                                        srcset="./assets/img/gallery/IMG_0221.JPG 2x" alt=""></figure>
                             </div>
                             <div class="item pt-20">
-                                <figure class="rounded shadow"><img src="https://www.avnivan.com/wp-content/uploads/2023/11/2042f7b3-22c6-4e55-bd82-43bc60430a44.jpg" srcset="https://www.avnivan.com/wp-content/uploads/2023/11/2042f7b3-22c6-4e55-bd82-43bc60430a44.jpg 2x" alt=""></figure>
+                                <figure class="rounded shadow"><img
+                                        src="https://www.avnivan.com/wp-content/uploads/2023/11/2042f7b3-22c6-4e55-bd82-43bc60430a44.jpg"
+                                        srcset="https://www.avnivan.com/wp-content/uploads/2023/11/2042f7b3-22c6-4e55-bd82-43bc60430a44.jpg 2x"
+                                        alt=""></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <img src="assets/img/icons/lineal/megaphone.svg" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
+                        <img src="assets/img/icons/lineal/megaphone.svg" class="svg-inject icon-svg icon-svg-md mb-4"
+                            alt="" />
                         <h2 class="display-4 mb-3">Who Are We?</h2>
                         <p class="lead fs-lg">We are a digital and branding company that believes in the power of
                             creative strategy and along with great design.</p>
@@ -116,7 +122,8 @@
                 </div>
                 <div class="row mb-5">
                     <div class="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
-                        <img src="assets/img/icons/lineal/list.svg" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
+                        <img src="assets/img/icons/lineal/list.svg" class="svg-inject icon-svg icon-svg-md mb-4"
+                            alt="" />
                         <h2 class="display-4 mb-4 px-lg-14">Here are 3 working steps to organize our business projects.
                         </h2>
                     </div>
@@ -127,7 +134,8 @@
                             <div class="card-body p-6">
                                 <div class="d-flex flex-row">
                                     <div>
-                                        <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">01</span></span>
+                                        <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span
+                                                class="number">01</span></span>
                                     </div>
                                     <div>
                                         <h4 class="mb-1">Collect Ideas</h4>
@@ -140,7 +148,8 @@
                             <div class="card-body p-6">
                                 <div class="d-flex flex-row">
                                     <div>
-                                        <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">02</span></span>
+                                        <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span
+                                                class="number">02</span></span>
                                     </div>
                                     <div>
                                         <h4 class="mb-1">Data Analysis</h4>
@@ -153,7 +162,8 @@
                             <div class="card-body p-6">
                                 <div class="d-flex flex-row">
                                     <div>
-                                        <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">03</span></span>
+                                        <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span
+                                                class="number">03</span></span>
                                     </div>
                                     <div>
                                         <h4 class="mb-1">Finalize Product</h4>
@@ -182,22 +192,27 @@
             <div class="container py-14 py-md-16">
                 <div class="row mb-3">
                     <div class="col-md-10 col-xl-9 col-xxl-7 mx-auto text-center">
-                        <img src="assets/img/icons/lineal/team.svg" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
+                        <img src="assets/img/icons/lineal/team.svg" class="svg-inject icon-svg icon-svg-md mb-4"
+                            alt="" />
                         <h2 class="display-4 mb-3 px-lg-14">Save your time and money by choosing our professional team.
                         </h2>
                     </div>
                 </div>
                 <div class="position-relative">
-                    <div class="shape rounded-circle bg-soft-yellow rellax w-16 h-16" data-rellax-speed="1" style="bottom: 0.5rem; right: -1.7rem;"></div>
-                    <div class="shape rounded-circle bg-line red rellax w-16 h-16" data-rellax-speed="1" style="top: 0.5rem; left: -1.7rem;"></div>
-                    <div class="swiper-container dots-closer mb-6" data-margin="0" data-dots="true" data-items-xxl="4" data-items-xl="3" data-items-lg="3" data-items-md="2" data-items-xs="1">
+                    <div class="shape rounded-circle bg-soft-yellow rellax w-16 h-16" data-rellax-speed="1"
+                        style="bottom: 0.5rem; right: -1.7rem;"></div>
+                    <div class="shape rounded-circle bg-line red rellax w-16 h-16" data-rellax-speed="1"
+                        style="top: 0.5rem; left: -1.7rem;"></div>
+                    <div class="swiper-container dots-closer mb-6" data-margin="0" data-dots="true" data-items-xxl="4"
+                        data-items-xl="3" data-items-lg="3" data-items-md="2" data-items-xs="1">
                         <div class="swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="item-inner">
                                         <div class="card">
                                             <div class="card-body">
-                                                <img class="rounded-circle w-15 mb-4" src="assets/img/avatars/te1.jpg" srcset="./assets/img/avatars/te1@2x.jpg 2x" alt="" />
+                                                <img class="rounded-circle w-15 mb-4" src="assets/img/avatars/te1.jpg"
+                                                    srcset="./assets/img/avatars/te1@2x.jpg 2x" alt="" />
                                                 <h4 class="mb-1">Coriss Ambady</h4>
                                                 <div class="meta mb-2">Financial Analyst</div>
                                                 <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
@@ -214,7 +229,8 @@
                                     <div class="item-inner">
                                         <div class="card">
                                             <div class="card-body">
-                                                <img class="rounded-circle w-15 mb-4" src="assets/img/avatars/te2.jpg" srcset="./assets/img/avatars/te2@2x.jpg 2x" alt="" />
+                                                <img class="rounded-circle w-15 mb-4" src="assets/img/avatars/te2.jpg"
+                                                    srcset="./assets/img/avatars/te2@2x.jpg 2x" alt="" />
                                                 <h4 class="mb-1">Cory Zamora</h4>
                                                 <div class="meta mb-2">Marketing Specialist</div>
                                                 <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
@@ -231,7 +247,8 @@
                                     <div class="item-inner">
                                         <div class="card">
                                             <div class="card-body">
-                                                <img class="rounded-circle w-15 mb-4" src="assets/img/avatars/te3.jpg" srcset="./assets/img/avatars/te3@2x.jpg 2x" alt="" />
+                                                <img class="rounded-circle w-15 mb-4" src="assets/img/avatars/te3.jpg"
+                                                    srcset="./assets/img/avatars/te3@2x.jpg 2x" alt="" />
                                                 <h4 class="mb-1">Nikolas Brooten</h4>
                                                 <div class="meta mb-2">Sales Manager</div>
                                                 <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
@@ -248,7 +265,8 @@
                                     <div class="item-inner">
                                         <div class="card">
                                             <div class="card-body">
-                                                <img class="rounded-circle w-15 mb-4" src="assets/img/avatars/te4.jpg" srcset="./assets/img/avatars/te4@2x.jpg 2x" alt="" />
+                                                <img class="rounded-circle w-15 mb-4" src="assets/img/avatars/te4.jpg"
+                                                    srcset="./assets/img/avatars/te4@2x.jpg 2x" alt="" />
                                                 <h4 class="mb-1">Jackie Sanders</h4>
                                                 <div class="meta mb-2">Investment Planner</div>
                                                 <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
@@ -265,7 +283,8 @@
                                     <div class="item-inner">
                                         <div class="card">
                                             <div class="card-body">
-                                                <img class="rounded-circle w-15 mb-4" src="assets/img/avatars/te5.jpg" srcset="./assets/img/avatars/te5@2x.jpg 2x" alt="" />
+                                                <img class="rounded-circle w-15 mb-4" src="assets/img/avatars/te5.jpg"
+                                                    srcset="./assets/img/avatars/te5@2x.jpg 2x" alt="" />
                                                 <h4 class="mb-1">Laura Widerski</h4>
                                                 <div class="meta mb-2">Sales Specialist</div>
                                                 <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
@@ -282,7 +301,8 @@
                                     <div class="item-inner">
                                         <div class="card">
                                             <div class="card-body">
-                                                <img class="rounded-circle w-15 mb-4" src="assets/img/avatars/te6.jpg" srcset="./assets/img/avatars/te6@2x.jpg 2x" alt="" />
+                                                <img class="rounded-circle w-15 mb-4" src="assets/img/avatars/te6.jpg"
+                                                    srcset="./assets/img/avatars/te6@2x.jpg 2x" alt="" />
                                                 <h4 class="mb-1">Tina Geller</h4>
                                                 <div class="meta mb-2">Financial Analyst</div>
                                                 <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
@@ -307,7 +327,8 @@
             <div class="row gy-6 gy-lg-0">
                 <div class="col-md-4 col-lg-3">
                     <div class="widget">
-                        <img class="mb-4" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" />
+                        <img class="mb-4" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x"
+                            alt="" />
                         <p class="mb-4">© 2023 Sandbox. <br class="d-none d-lg-block" />All rights reserved.</p>
                         <nav class="nav social social-white">
                             <a href="#"><i class="uil uil-twitter"></i></a>
@@ -344,18 +365,26 @@
                         <p class="mb-5">Subscribe to our newsletter to get our news & deals delivered to you.</p>
                         <div class="newsletter-wrapper">
                             <div id="mc_embed_signup2">
-                                <form action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate dark-fields" target="_blank" novalidate>
+                                <form
+                                    action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
+                                    method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form"
+                                    class="validate dark-fields" target="_blank" novalidate>
                                     <div id="mc_embed_signup_scroll2">
                                         <div class="mc-field-group input-group form-floating">
-                                            <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Email Address" id="mce-EMAIL2">
+                                            <input type="email" value="" name="EMAIL"
+                                                class="required email form-control" placeholder="Email Address"
+                                                id="mce-EMAIL2">
                                             <label for="mce-EMAIL2">Email Address</label>
-                                            <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-primary">
+                                            <input type="submit" value="Join" name="subscribe"
+                                                id="mc-embedded-subscribe2" class="btn btn-primary">
                                         </div>
                                         <div id="mce-responses2" class="clear">
                                             <div class="response" id="mce-error-response2" style="display:none"></div>
                                             <div class="response" id="mce-success-response2" style="display:none"></div>
                                         </div>
-                                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
+                                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input
+                                                type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1"
+                                                value=""></div>
                                         <div class="clear"></div>
                                     </div>
                                 </form>

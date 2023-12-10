@@ -40,13 +40,15 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                 <div class="container flex-lg-row flex-nowrap align-items-center">
                     <div class="navbar-brand w-100">
                         <a href="index.php">
-                            <img src="assets/img/new_logo.png" srcset="./assets/img/new_logo.png 2x" alt="" />
+                            <img class="img-fluid" width="50px" src="assets/img/logo.png"
+                                srcset="./assets/img/logo.png 2x" alt="" />
                         </a>
                     </div>
                     <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
                         <div class="offcanvas-header d-lg-none">
                             <h3 class="text-white fs-30 mb-0">Sandbox</h3>
-                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
                             <ul class="navbar-nav">
@@ -80,20 +82,24 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
             </nav>
         </header>
         <section class="section-frame br-fix overflow-hidden">
-            <div class="wrapper image-wrapper bg-cover bg-image bg-overlay bg-overlay-500" data-image-src="./assets/img/photos/bg26.jpg">
+            <div class="wrapper image-wrapper bg-cover bg-image bg-overlay bg-overlay-500"
+                data-image-src="./assets/img/photos/bg26.jpg">
                 <div class="container pt-18 pt-lg-21 pb-17 pb-lg-19 text-center">
                     <div class="row">
-                        <div class="col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto" data-cues="zoomIn" data-group="page-title" data-interval="-200" data-delay="500">
+                        <div class="col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto" data-cues="zoomIn"
+                            data-group="page-title" data-interval="-200" data-delay="500">
                             <h2 class="h6 text-uppercase ls-xl text-white mb-5">Hello! We are Sandbox</h2>
                             <h3 class="display-1 fs-54 text-white mb-7">Grow your business with our marketing solutions
                             </h3>
-                            <a href="https://www.youtube.com/watch?v=yOigqgubXx8" class="btn btn-circle btn-white btn-play ripple mx-auto" data-glightbox><i class="icn-caret-right"></i></a>
+                            <a href="https://www.youtube.com/watch?v=yOigqgubXx8"
+                                class="btn btn-circle btn-white btn-play ripple mx-auto" data-glightbox><i
+                                    class="icn-caret-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="overflow-hidden">
                     <div class="divider text-white mx-n2">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60">
+                        <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 1440 60">
                             <path fill="currentColor" d="M0,0V60H1440V0A5771,5771,0,0,1,0,0Z" />
                         </svg>
                     </div>
@@ -110,8 +116,12 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                     </div>
                 </div>
                 <div class="position-relative">
-                    <div class="shape bg-dot primary rellax w-17 h-20" data-rellax-speed="1" style="top: 0; left: -1.7rem;"></div>
-                    <div class="swiper-container dots-closer blog grid-view mb-6" data-margin="0" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1" data-speed="500" data-autoplay="true" data-autoplaytime="3000" data-loop="true" data-nav="true" data-drag="true" data-updateresize="true">
+                    <div class="shape bg-dot primary rellax w-17 h-20" data-rellax-speed="1"
+                        style="top: 0; left: -1.7rem;"></div>
+                    <div class="swiper-container dots-closer blog grid-view mb-6" data-margin="0" data-dots="true"
+                        data-items-xl="3" data-items-md="2" data-items-xs="1" data-speed="500" data-autoplay="true"
+                        data-autoplaytime="3000" data-loop="true" data-nav="true" data-drag="true"
+                        data-updateresize="true">
                         <div class="swiper">
                             <div class="swiper-wrapper">
                                 <?php
@@ -161,7 +171,8 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
             <div class="row gy-6 gy-lg-0">
                 <div class="col-md-4 col-lg-3">
                     <div class="widget">
-                        <img class="mb-4" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" />
+                        <img class="mb-4" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x"
+                            alt="" />
                         <p class="mb-4">© 2023 Sandbox. <br class="d-none d-lg-block" />All rights reserved.</p>
                         <nav class="nav social social-white">
                             <a href="#"><i class="uil uil-twitter"></i></a>
@@ -198,18 +209,25 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                         <p class="mb-5">Subscribe to our newsletter to get our news & deals delivered to you.</p>
                         <div class="newsletter-wrapper">
                             <div id="mc_embed_signup2">
-                                <form action="" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate dark-fields" target="_blank" novalidate>
+                                <form action="" method="post" id="mc-embedded-subscribe-form2"
+                                    name="mc-embedded-subscribe-form" class="validate dark-fields" target="_blank"
+                                    novalidate>
                                     <div id="mc_embed_signup_scroll2">
                                         <div class="mc-field-group input-group form-floating">
-                                            <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Email Address" id="mce-EMAIL2">
+                                            <input type="email" value="" name="EMAIL"
+                                                class="required email form-control" placeholder="Email Address"
+                                                id="mce-EMAIL2">
                                             <label for="mce-EMAIL2">Email Address</label>
-                                            <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-primary">
+                                            <input type="submit" value="Join" name="subscribe"
+                                                id="mc-embedded-subscribe2" class="btn btn-primary">
                                         </div>
                                         <div id="mce-responses2" class="clear">
                                             <div class="response" id="mce-error-response2" style="display:none"></div>
                                             <div class="response" id="mce-success-response2" style="display:none"></div>
                                         </div>
-                                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
+                                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input
+                                                type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1"
+                                                value=""></div>
                                         <div class="clear"></div>
                                     </div>
                                 </form>

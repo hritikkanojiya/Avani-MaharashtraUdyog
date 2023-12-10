@@ -1,14 +1,44 @@
 <?php
 
-if (!isset($_GET['franchise_id'])) {
-    header('Location: https://localhost/maharahshtraudyog.com');
+if (isset($_POST['name'])) {
+    $ch = curl_init();
+
+    curl_setopt($ch, CURLOPT_URL, "https://backend.maharashtraudyog.com/modules/submit_application");
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $_POST);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+        'Accept: application/json',
+    ));
+    $curl_request = curl_exec($ch);
+
+    curl_close($ch);
+    $curl_response = json_decode($curl_request, true);
+    $franchise = array();
+
+    if (isset($curl_response['status']) && $curl_response['status'] == "success") {
+        echo "<script>alert('Application Submitted')</script>";
+    } else {
+        echo "<script>alert('Something went wrong')</script>";
+    }
+
+    header('Location: https://maharahshtraudyog.com?franchise.php?franchise_id=' . $_GET["franchise_id"]);
 }
+
+if (!isset($_GET['franchise_id'])) {
+    header('Location: https://maharahshtraudyog.com');
+}
+
 $ch = curl_init();
 
 curl_setopt($ch, CURLOPT_URL, "https://backend.maharashtraudyog.com/modules/get_franchise_by_id?franchise_id=" . $_GET['franchise_id']);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+    'Accept: application/json',
+));
 $curl_request = curl_exec($ch);
 
 curl_close($ch);
@@ -20,6 +50,7 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
 } else {
     header('Location: https://maharahshtraudyog.com');
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -42,7 +73,8 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                 <div class="container flex-lg-row flex-nowrap align-items-center">
                     <div class="navbar-brand w-100">
                         <a href="index.php">
-                            <img src="assets/img/new_logo.png" srcset="./assets/img/new_logo.png 2x" alt="" />
+                            <img class="img-fluid" width="50px" src="assets/img/logo.png"
+                                srcset="./assets/img/logo.png 2x" alt="" />
                         </a>
                     </div>
                     <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -194,23 +226,17 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                     <div class="col-xl-10 mx-auto">
                                         <div class="row gy-10 gx-lg-8 gx-xl-12">
                                             <div class="col-lg-12">
-                                                <form class="contact-form needs-validation" method="post"
-                                                    action="franchise.php" novalidate>
-                                                    <div class="messages"></div>
+                                                <form class="" method="post"
+                                                    action="https://maharashtraudyog.com/franchise.php?franchise_id=<?= $_GET['franchise_id'] ?>">
+                                                    <input id="" type="hidden" name="franchise_id" class="form-control"
+                                                        value="<?= $_GET['franchise_id'] ?>" required>
                                                     <div class="row gx-4">
                                                         <div class="col-md-8">
                                                             <div class="form-floating mb-4">
                                                                 <input id="form_name" type="text" name="name"
                                                                     class="form-control" placeholder="Name of Customer"
                                                                     required>
-                                                                <label for="form_name">Name of Customer
-                                                                    *</label>
-                                                                <div class="valid-feedback">
-                                                                    Looks good!
-                                                                </div>
-                                                                <div class="invalid-feedback">
-                                                                    Please enter your name.
-                                                                </div>
+                                                                <label for="form_name">Name of Customer</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
@@ -220,12 +246,6 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                                     required>
                                                                 <label for="form_lastname">Date of Birth
                                                                     *</label>
-                                                                <div class="valid-feedback">
-                                                                    Looks good!
-                                                                </div>
-                                                                <div class="invalid-feedback">
-                                                                    Please enter your date of birth.
-                                                                </div>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
@@ -235,12 +255,6 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                                     required>
                                                                 <label for="">Contact Number
                                                                     *</label>
-                                                                <div class="valid-feedback">
-                                                                    Looks good!
-                                                                </div>
-                                                                <div class="invalid-feedback">
-                                                                    Please provide a valid contact number
-                                                                </div>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
@@ -250,12 +264,6 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                                     required>
                                                                 <label for="">WhatsApp Number
                                                                     *</label>
-                                                                <div class="valid-feedback">
-                                                                    Looks good!
-                                                                </div>
-                                                                <div class="invalid-feedback">
-                                                                    Please provide a valid whatsapp number
-                                                                </div>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
@@ -270,12 +278,6 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                                     <option value="SC/ST">SC/ST</option>
                                                                     <option value="Other">Other</option>
                                                                 </select>
-                                                                <div class="valid-feedback">
-                                                                    Looks good!
-                                                                </div>
-                                                                <div class="invalid-feedback">
-                                                                    Please select your caste.
-                                                                </div>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
@@ -289,12 +291,6 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                                     <option value="Widow">Widow</option>
                                                                     <option value="Divorsee">Divorsee</option>
                                                                 </select>
-                                                                <div class="valid-feedback">
-                                                                    Looks good!
-                                                                </div>
-                                                                <div class="invalid-feedback">
-                                                                    Please select your caste.
-                                                                </div>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
@@ -309,13 +305,37 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                                     <option value="अमरावती">अमरावती</option>
                                                                     <option value="संभाजीनगर">संभाजीनगर</option>
                                                                     <option value="बीड">बीड</option>
+                                                                    <option value="भंडारा">भंडारा</option>
+                                                                    <option value="बुलढाणा">बुलढाणा</option>
+                                                                    <option value="चंद्रपुर">चंद्रपुर</option>
+                                                                    <option value="धुळे">धुळे</option>
+                                                                    <option value="गडचिरोली">गडचिरोली</option>
+                                                                    <option value="गोंदिया">गोंदिया</option>
+                                                                    <option value="हिंगोली">हिंगोली</option>
+                                                                    <option value="जळगांव">जळगांव</option>
+                                                                    <option value="जालना">जालना</option>
+                                                                    <option value="कोल्हापूर">कोल्हापूर</option>
+                                                                    <option value="लातूर">लातूर</option>
+                                                                    <option value="मुंबई">मुंबई</option>
+                                                                    <option value="नागपूर">नागपूर</option>
+                                                                    <option value="नांदेड">नांदेड</option>
+                                                                    <option value="नंदुरबार">नंदुरबार</option>
+                                                                    <option value="नाशिक">नाशिक</option>
+                                                                    <option value="उस्मानाबाद">उस्मानाबाद</option>
+                                                                    <option value="पालघर">पालघर</option>
+                                                                    <option value="परभणी">परभणी</option>
+                                                                    <option value="पुणे">पुणे</option>
+                                                                    <option value="रायगड">रायगड</option>
+                                                                    <option value="रत्नागिरी">रत्नागिरी</option>
+                                                                    <option value="सातारा">सातारा</option>
+                                                                    <option value="सांगली">सांगली</option>
+                                                                    <option value="सिंधुदुर्ग">सिंधुदुर्ग</option>
+                                                                    <option value="सोलापूर">सोलापूर</option>
+                                                                    <option value="ठाणे">ठाणे</option>
+                                                                    <option value="वर्धा">वर्धा</option>
+                                                                    <option value="वाशिम">वाशिम</option>
+                                                                    <option value="यवतमाळ">यवतमाळ</option>
                                                                 </select>
-                                                                <div class="valid-feedback">
-                                                                    Looks good!
-                                                                </div>
-                                                                <div class="invalid-feedback">
-                                                                    Please select your caste.
-                                                                </div>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
@@ -327,12 +347,6 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                                     <option value="नोकरी">नोकरी</option>
                                                                     <option value="व्यवसाय">व्यवसाय</option>
                                                                 </select>
-                                                                <div class="valid-feedback">
-                                                                    Looks good!
-                                                                </div>
-                                                                <div class="invalid-feedback">
-                                                                    Please select your caste.
-                                                                </div>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6">
@@ -366,13 +380,24 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                                     <option value="FMCG">FMCG</option>
                                                                     <option value="FOOD ON WHEEL (FOOD VAN)">FOOD ON
                                                                         WHEEL (FOOD VAN)</option>
+                                                                    <option value="BAKERY">BAKERY</option>
+                                                                    <option value="FISH FARMING">FISH FARMING</option>
+                                                                    <option value="ORGANIC FOOD">ORGANIC FOOD</option>
+                                                                    <option value="KOKAN PRODUCTS">KOKAN PRODUCTS
+                                                                    </option>
+                                                                    <option value="SNACKS & NAMKIN">SNACKS & NAMKIN
+                                                                    </option>
+                                                                    <option value="MISAL FRANCHISE">MISAL FRANCHISE
+                                                                    </option>
+                                                                    <option value="SPICES">SPICES</option>
+                                                                    <option value="READY TO MIX">READY TO MIX</option>
+                                                                    <option value="HEALTHCARE">HEALTHCARE</option>
+                                                                    <option value="DAIRY PRODUCTS">DAIRY PRODUCTS
+                                                                    </option>
+                                                                    <option value="PACKAGED DRINKING WATER">PACKAGED
+                                                                        DRINKING WATER</option>
+                                                                    <option value="OTHER PLEASE SPECIFY">OTHER</option>
                                                                 </select>
-                                                                <div class="valid-feedback">
-                                                                    Looks good!
-                                                                </div>
-                                                                <div class="invalid-feedback">
-                                                                    Please select your caste.
-                                                                </div>
                                                             </div>
                                                         </div>
                                                         <div class="col-12">
@@ -382,28 +407,19 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                                     style="height: 150px" required></textarea>
                                                                 <label for="form_message">Address
                                                                     *</label>
-                                                                <div class="valid-feedback">
-                                                                    Looks good!
-                                                                </div>
-                                                                <div class="invalid-feedback">
-                                                                    Please enter your address.
-                                                                </div>
                                                             </div>
                                                         </div>
-                                                        <!-- <div class="col-12">
-                                                            <div class="form-check mb-4">
-                                                                <input class="form-check-input" type="checkbox" value=""
-                                                                    id="invalidCheck" required>
-                                                                <label class="form-check-label" for="invalidCheck">
-                                                                    I agree to <a href="#" class="hover">terms and
-                                                                        policy</a>.
-                                                                </label>
-                                                                <div class="invalid-feedback">
-                                                                    You must agree before
-                                                                    submitting.
-                                                                </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-floating mb-4">
+                                                                <input id="" type="text" name="acknowledgement"
+                                                                    class="form-control"
+                                                                    placeholder="मी दिलेली माहिती खरी असून मला उद्योग कर उद्योग या कार्यक्रमात उपस्थित राहायचे आहे."
+                                                                    required>
+                                                                <label for="">मी दिलेली माहिती खरी असून मला उद्योग कर
+                                                                    उद्योग या कार्यक्रमात उपस्थित राहायचे आहे.
+                                                                    *</label>
                                                             </div>
-                                                        </div> -->
+                                                        </div>
                                                         <div class="col-12 text-center mt-5">
                                                             <input type="submit"
                                                                 class="btn btn-primary rounded-pill btn-send mb-3"
