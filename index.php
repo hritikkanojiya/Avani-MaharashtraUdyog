@@ -126,7 +126,7 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                 <?php
                                 $swiper_dom = "";
                                 foreach ($franchise as $key => $value) {
-                                    $swiper_dom .= '<div class="swiper-slide" style="height: 500px;">
+                                    $swiper_dom .= '<div class="swiper-slide" style="height: 750px;">
                                         <div class="item-inner">
                                             <article>
                                                 <div class="card">
