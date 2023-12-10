@@ -31,6 +31,11 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/colors/grape.css">
     <link rel="preload" href="./assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'">
+    <style>
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    </style>
 </head>
 
 <body>
