@@ -31,6 +31,15 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/colors/grape.css">
     <link rel="preload" href="./assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'">
+    <style>
+    .swiper-controls .swiper-navigation .swiper-button.swiper-button-prev {
+        left: -5rem !important;
+    }
+
+    .swiper-controls .swiper-navigation .swiper-button.swiper-button-next {
+        right: -5rem !important;
+    }
+    </style>
 </head>
 
 <body>
