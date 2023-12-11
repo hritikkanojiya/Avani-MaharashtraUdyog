@@ -17,9 +17,12 @@ $franchise = array();
 
 if (isset($curl_response['status']) && $curl_response['status'] == "success") {
     $franchise = $curl_response['franchise'];
+    function split_array_in_half($array)
+    {
+        return array_chunk($array, ceil(count($array) / 2));
+    }
 
-    // list($first_half_odd, $second_half_odd) = split_array_in_half($input_array_odd);
-
+    list($first_half_odd, $second_half_odd) = split_array_in_half($franchise);
 }
 ?>
 <!DOCTYPE html>
@@ -35,9 +38,9 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
     <link rel="stylesheet" href="../assets/css/colors/grape.css">
     <link rel="preload" href="../assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'">
     <style>
-        ::-webkit-scrollbar {
-            display: none;
-        }
+    ::-webkit-scrollbar {
+        display: none;
+    }
     </style>
 </head>
 
@@ -48,7 +51,8 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                 <div class="container flex-lg-row flex-nowrap align-items-center">
                     <div class="navbar-brand py-3 py-md-0">
                         <a href="index.php">
-                            <img class="img-fluid my-lg-3" width="85px" src="../assets/img/logo.png" srcset="../assets/img/logo.png 2x" alt="" />
+                            <img class="img-fluid my-lg-3" width="85px" src="../assets/img/logo.png"
+                                srcset="../assets/img/logo.png 2x" alt="" />
                         </a>
                     </div>
                     <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -73,9 +77,13 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                     <a href="#" class="link-inverse"></a>
                                     <br />9987238461<br />
                                     <nav class="nav social social-white d-flex gap-2">
-                                        <a href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i class="uil uil-facebook-f"></i></a>
-                                        <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i class="uil uil-instagram"></i></a>
-                                        <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i class="uil uil-youtube"></i></a>
+                                        <a
+                                            href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i
+                                                class="uil uil-facebook-f"></i></a>
+                                        <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i
+                                                class="uil uil-instagram"></i></a>
+                                        <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i
+                                                class="uil uil-youtube"></i></a>
                                     </nav>
                                 </div>
                             </div>
@@ -84,7 +92,8 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                     <div class="navbar-other ms-lg-4">
                         <ul class="navbar-nav flex-row align-items-center ms-auto">
                             <li class="nav-item dropdown language-select text-uppercase">
-                                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
+                                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item"><a class="dropdown-item" href="../en/">English</a></li>
                                     <li class="nav-item"><a class="dropdown-item" href="../mr/">मराठी</a></li>
@@ -99,10 +108,12 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
             </nav>
         </header>
         <section class="section-frame br-fix overflow-hidden">
-            <div class="wrapper image-wrapper bg-cover bg-image bg-overlay bg-overlay-500 d-block d-md-none" data-image-src="../assets/img/extras/home_page.jpg" style="background-size: contain; min-height:10px" ;>
+            <div class="wrapper image-wrapper bg-cover bg-image bg-overlay bg-overlay-500 d-block d-md-none"
+                data-image-src="../assets/img/extras/home_page.jpg" style="background-size: contain; min-height:10px" ;>
                 <div class=" container pt-lg-18 pb-lg-19 text-center pt-10">
                     <div class="row">
-                        <div class="col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto pb-5" data-cues="zoomIn" data-group="page-title" data-interval="-200" data-delay="500">
+                        <div class="col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto pb-5" data-cues="zoomIn"
+                            data-group="page-title" data-interval="-200" data-delay="500">
                             <h2 class="h6 fs-25 text-uppercase ls-xl text-white mb-5 fw-bold">मी करेन उद्योग, मी होईन
                                 उद्योजक
                                 !!!
@@ -111,7 +122,9 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                 कमवा हक्काची
                                 भाकरी....
                             </h3>
-                            <a href="https://www.youtube.com/watch?v=yOigqgubXx8" class="btn btn-circle btn-white btn-play ripple mx-auto" data-glightbox><i class="icn-caret-right"></i></a>
+                            <a href="https://www.youtube.com/watch?v=yOigqgubXx8"
+                                class="btn btn-circle btn-white btn-play ripple mx-auto" data-glightbox><i
+                                    class="icn-caret-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -123,17 +136,21 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                     </div>
                 </div>
             </div>
-            <div class="wrapper image-wrapper bg-cover bg-image bg-overlay bg-overlay-500 d-none d-md-block" data-image-src="../assets/img/extras/home_page.jpg">
+            <div class="wrapper image-wrapper bg-cover bg-image bg-overlay bg-overlay-500 d-none d-md-block"
+                data-image-src="../assets/img/extras/home_page.jpg">
                 <div class="container pt-15 pt-lg-18 pb-17 pb-lg-19 text-center">
                     <div class="row">
-                        <div class="col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto" data-cues="zoomIn" data-group="page-title" data-interval="-200" data-delay="500">
+                        <div class="col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto" data-cues="zoomIn"
+                            data-group="page-title" data-interval="-200" data-delay="500">
                             <h2 class="h6 fs-25 text-uppercase ls-xl text-white mb-5">मी करेन उद्योग, मी होईन उद्योजक
                                 !!!
                             </h2>
                             <h3 class="display-1 fs-38 text-white mb-7">करू नका दुसऱ्याची चाकरी, स्वकष्टाने कमवा हक्काची
                                 भाकरी....
                             </h3>
-                            <a href="https://www.youtube.com/watch?v=yOigqgubXx8" class="btn btn-circle btn-white btn-play ripple mx-auto" data-glightbox><i class="icn-caret-right"></i></a>
+                            <a href="https://www.youtube.com/watch?v=yOigqgubXx8"
+                                class="btn btn-circle btn-white btn-play ripple mx-auto" data-glightbox><i
+                                    class="icn-caret-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -156,14 +173,65 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                     </div>
                 </div>
                 <div class="position-relative">
-                    <div class="shape bg-dot primary rellax w-17 h-20" data-rellax-speed="1" style="top: 0; left: -1.7rem;">
+                    <div class="shape bg-dot primary rellax w-17 h-20" data-rellax-speed="1"
+                        style="top: 0; left: -1.7rem;">
                     </div>
-                    <div class="swiper-container dots-closer blog grid-view mb-6" data-margin="0" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true" data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
+                    <div class="swiper-container dots-closer blog grid-view mb-6" data-margin="0" data-dots="true"
+                        data-items-xl="3" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true"
+                        data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
                         <div class="swiper">
                             <div class="swiper-wrapper">
                                 <?php
                                 $swiper_dom = "";
-                                foreach ($franchise as $key => $value) {
+                                foreach ($first_half_odd as $key => $value) {
+                                    $swiper_dom .= '<div class="swiper-slide">
+                                        <div class="item-inner">
+                                            <article>
+                                                <div class="card">
+                                                    <figure class="card-img-top overlay overlay-1 hover-scale">
+                                                        <a href="https://maharashtraudyog.com/mr/franchise.php?franchise_id=' . $value['franchise_id'] . '">
+                                                            <img class="img-fluid" src="https://cdn.maharashtraudyog.com/public/uploads/franchise/logos/' . $value['logo'] . '" alt="" /></a>
+                                                        <figcaption>
+                                                            <h5 class="from-top mb-0">Read More</h5>
+                                                        </figcaption>
+                                                    </figure>
+                                                    <div class="card-body px-5 p-md-8">
+                                                        <div class="post-header">
+                                                            <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="https://maharashtraudyog.com/mr/franchise.php?franchise_id=' . $value['franchise_id'] . '">' . $value['name'] . '</a>
+                                                            </h2>
+                                                        </div>
+                                                        <div class="post-content">
+                                                            <p style="min-height:150px; max-height:150px; overflow: auto;">' . $value['franchise_details'] . '</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-footer text-center">
+                                                        <a href="https://maharashtraudyog.com/mr/franchise.php?franchise_id=' . $value['franchise_id'] . '" class="btn btn-sm btn-outline-gradient gradient-6 rounded-pill">
+                                                            <span>Know More</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>';
+                                }
+                                echo $swiper_dom;
+                                ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative pt-10">
+                    <div class="shape bg-dot primary rellax w-17 h-20" data-rellax-speed="1"
+                        style="top: 0; left: -1.7rem;">
+                    </div>
+                    <div class="swiper-container dots-closer blog grid-view mb-6" data-margin="0" data-dots="true"
+                        data-items-xl="3" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true"
+                        data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <?php
+                                $swiper_dom = "";
+                                foreach ($second_half_odd as $key => $value) {
                                     $swiper_dom .= '<div class="swiper-slide">
                                         <div class="item-inner">
                                             <article>
@@ -213,7 +281,9 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                 </div>
             </div>
             <div class="container-fluid px-md-6">
-                <div class="swiper-container blog grid-view mb-15" data-margin="30" data-nav="true" data-dots="true" data-items-xxl="3" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true" data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
+                <div class="swiper-container blog grid-view mb-15" data-margin="30" data-nav="true" data-dots="true"
+                    data-items-xxl="3" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true"
+                    data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
                     <div class="swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -254,13 +324,17 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
             <div class="row gy-6 gy-lg-0">
                 <div class="col-md-4 col-lg-4">
                     <div class="widget">
-                        <img class="img-fluid mb-3" width="120px" src="../assets/img/logo.png" srcset="../assets/img/logo.png 2x" alt="" />
+                        <img class="img-fluid mb-3" width="120px" src="../assets/img/logo.png"
+                            srcset="../assets/img/logo.png 2x" alt="" />
                         <p class="mb-4">MaharashtraUdyog
                         </p>
                         <nav class="nav social social-white d-flex gap-2">
-                            <a href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i class="uil uil-facebook-f"></i></a>
-                            <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i class="uil uil-instagram"></i></a>
-                            <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i class="uil uil-youtube"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i
+                                    class="uil uil-facebook-f"></i></a>
+                            <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i
+                                    class="uil uil-instagram"></i></a>
+                            <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i
+                                    class="uil uil-youtube"></i></a>
                         </nav>
                     </div>
                 </div>
