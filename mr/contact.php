@@ -17,7 +17,8 @@
                 <div class="container flex-lg-row flex-nowrap align-items-center">
                     <div class="navbar-brand py-3 py-md-0">
                         <a href="index.php">
-                            <img class="img-fluid my-lg-3" width="85px" src="../assets/img/logo.png" srcset="../assets/img/logo.png 2x" alt="" />
+                            <img class="img-fluid my-lg-3" width="85px" src="../assets/img/logo.png"
+                                srcset="../assets/img/logo.png 2x" alt="" />
                         </a>
                     </div>
                     <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -41,11 +42,15 @@
                                         No. 3, Lamington Road, Mumbai Central, Mumbai 400008
                                     </address>
                                     <a href="#" class="link-inverse"></a>
-                                    <br />+91 98200 30976<br />
+                                    <br />9987238461<br />
                                     <nav class="nav social social-white d-flex gap-2">
-                                        <a href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i class="uil uil-facebook-f"></i></a>
-                                        <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i class="uil uil-instagram"></i></a>
-                                        <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i class="uil uil-youtube"></i></a>
+                                        <a
+                                            href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i
+                                                class="uil uil-facebook-f"></i></a>
+                                        <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i
+                                                class="uil uil-instagram"></i></a>
+                                        <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i
+                                                class="uil uil-youtube"></i></a>
                                     </nav>
                                 </div>
                             </div>
@@ -61,7 +66,8 @@
                 </div>
             </nav>
         </header>
-        <section class="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 text-white" data-image-src="../assets/img/extras/service_hero.jpeg">
+        <section class="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 text-white"
+            data-image-src="../assets/img/extras/service_hero.jpeg">
             <div class="container pt-17 pb-20 pt-md-19 pb-md-21 text-center">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
@@ -80,19 +86,23 @@
             <div class="container pb-11">
                 <div class="row mb-14 mb-md-16">
                     <div class="col-xl-10 mx-auto mt-n19">
-                        <div class="shape bg-dot white rellax w-22 h-21 z-n1 mt-n10" data-rellax-speed="1" style="top: -2rem; left: -5rem;"></div>
+                        <div class="shape bg-dot white rellax w-22 h-21 z-n1 mt-n10" data-rellax-speed="1"
+                            style="top: -2rem; left: -5rem;"></div>
                         <div class="card">
                             <div class="row gx-0">
                                 <div class="col-lg-6 align-self-stretch">
                                     <div class="map map-full rounded-top rounded-lg-start">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.218984945608!2d72.81680097437905!3d18.965933855420253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce6cdbf00001%3A0x53839f7408953c57!2sNavjivan%20Commercial%20Premises%20CHS!5e0!3m2!1sen!2sin!4v1689090315776!5m2!1sen!2sin" style="width:100%; height: 100%; border:0" allowfullscreen></iframe>
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.218984945608!2d72.81680097437905!3d18.965933855420253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce6cdbf00001%3A0x53839f7408953c57!2sNavjivan%20Commercial%20Premises%20CHS!5e0!3m2!1sen!2sin!4v1689090315776!5m2!1sen!2sin"
+                                            style="width:100%; height: 100%; border:0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="p-10 p-md-11 p-lg-14">
                                         <div class="d-flex flex-row">
                                             <div>
-                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-location-pin-alt"></i> </div>
+                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i
+                                                        class="uil uil-location-pin-alt"></i> </div>
                                             </div>
                                             <div class="align-self-start justify-content-start">
                                                 <h5 class="mb-1">Address</h5>
@@ -103,28 +113,32 @@
                                         </div>
                                         <div class="d-flex flex-row">
                                             <div>
-                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-phone-volume"></i> </div>
+                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i
+                                                        class="uil uil-phone-volume"></i> </div>
                                             </div>
                                             <div>
                                                 <h5 class="mb-1">Phone</h5>
                                                 <p>
-                                                    +91 98200 30971
+                                                    9820030971
                                                     <br />
-                                                    +91 98200 30976
+                                                    9987238461
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="d-flex flex-row">
                                             <div>
-                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-envelope"></i> </div>
+                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i
+                                                        class="uil uil-envelope"></i> </div>
                                             </div>
                                             <div>
                                                 <h5 class="mb-1">E-mail</h5>
                                                 <p class="mb-0">
-                                                    <a href="mailto:support@avnivan.com" class="link-body">support@avnivan.com</a>
+                                                    <a href="mailto:support@avnivan.com"
+                                                        class="link-body">support@avnivan.com</a>
                                                 </p>
                                                 <p class="mb-0">
-                                                    <a href="mailto:avnivan24@gmail.com" class="link-body">avnivan24@gmail.com</a>
+                                                    <a href="mailto:avnivan24@gmail.com"
+                                                        class="link-body">avnivan24@gmail.com</a>
                                                 </p>
                                             </div>
                                         </div>
@@ -135,13 +149,15 @@
                     </div>
                     <div class="col-xl-10 mx-auto mt-20">
                         <div class="card">
-                            <div class="shape bg-dot primary rellax w-22 h-21 z-1 mt-n10" data-rellax-speed="1" style="top: -2rem; right: -5rem;"></div>
+                            <div class="shape bg-dot primary rellax w-22 h-21 z-1 mt-n10" data-rellax-speed="1"
+                                style="top: -2rem; right: -5rem;"></div>
                             <div class="row gx-0 z-1">
                                 <div class="col-lg-6">
                                     <div class="p-10 p-md-11 p-lg-14">
                                         <div class="d-flex flex-row">
                                             <div>
-                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-location-pin-alt"></i> </div>
+                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i
+                                                        class="uil uil-location-pin-alt"></i> </div>
                                             </div>
                                             <div class="align-self-start justify-content-start">
                                                 <h5 class="mb-1">Address</h5>
@@ -151,28 +167,32 @@
                                         </div>
                                         <div class="d-flex flex-row">
                                             <div>
-                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-phone-volume"></i> </div>
+                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i
+                                                        class="uil uil-phone-volume"></i> </div>
                                             </div>
                                             <div>
                                                 <h5 class="mb-1">Phone</h5>
                                                 <p>
-                                                    +91 99872 38461
+                                                    8454984360
                                                     <br />
-                                                    +91 81697 17562
+                                                    9820030971
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="d-flex flex-row">
                                             <div>
-                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-envelope"></i> </div>
+                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i
+                                                        class="uil uil-envelope"></i> </div>
                                             </div>
                                             <div>
                                                 <h5 class="mb-1">E-mail</h5>
                                                 <p class="mb-0">
-                                                    <a href="mailto:support@avnivan.com" class="link-body">support@avnivan.com</a>
+                                                    <a href="mailto:support@avnivan.com"
+                                                        class="link-body">support@avnivan.com</a>
                                                 </p>
                                                 <p class="mb-0">
-                                                    <a href="mailto:avnivan24@gmail.com" class="link-body">avnivan24@gmail.com</a>
+                                                    <a href="mailto:avnivan24@gmail.com"
+                                                        class="link-body">avnivan24@gmail.com</a>
                                                 </p>
                                             </div>
                                         </div>
@@ -180,7 +200,9 @@
                                 </div>
                                 <div class="col-lg-6 align-self-stretch">
                                     <div class="map map-full rounded-top rounded-lg-start">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.8842874851703!2d72.83324537437832!3d18.936515256338282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1dbc6e81c1d%3A0x167e30964ccea55f!2sPerin%20Nariman%20St%2C%20Borabazar%20Precinct%2C%20Ballard%20Estate%2C%20Fort%2C%20Mumbai%2C%20Maharashtra%20400001!5e0!3m2!1sen!2sin!4v1689090403070!5m2!1sen!2sin" style="width:100%; height: 100%; border:0" allowfullscreen></iframe>
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.8842874851703!2d72.83324537437832!3d18.936515256338282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1dbc6e81c1d%3A0x167e30964ccea55f!2sPerin%20Nariman%20St%2C%20Borabazar%20Precinct%2C%20Ballard%20Estate%2C%20Fort%2C%20Mumbai%2C%20Maharashtra%20400001!5e0!3m2!1sen!2sin!4v1689090403070!5m2!1sen!2sin"
+                                            style="width:100%; height: 100%; border:0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -197,7 +219,8 @@
                             <div class="row gx-4">
                                 <div class="col-md-6">
                                     <div class="form-floating mb-4">
-                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Jane" required>
+                                        <input id="form_name" type="text" name="name" class="form-control"
+                                            placeholder="Jane" required>
                                         <label for="form_name">First Name *</label>
                                         <div class="valid-feedback"> Looks good! </div>
                                         <div class="invalid-feedback"> Please enter your first name. </div>
@@ -205,7 +228,8 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating mb-4">
-                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Doe" required>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control"
+                                            placeholder="Doe" required>
                                         <label for="form_lastname">Last Name *</label>
                                         <div class="valid-feedback"> Looks good! </div>
                                         <div class="invalid-feedback"> Please enter your last name. </div>
@@ -213,7 +237,8 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating mb-4">
-                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="jane.doe@example.com" required>
+                                        <input id="form_email" type="email" name="email" class="form-control"
+                                            placeholder="jane.doe@example.com" required>
                                         <label for="form_email">Email *</label>
                                         <div class="valid-feedback"> Looks good! </div>
                                         <div class="invalid-feedback"> Please provide a valid email address. </div>
@@ -233,14 +258,16 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating mb-4">
-                                        <textarea id="form_message" name="message" class="form-control" placeholder="Your message" style="height: 150px" required></textarea>
+                                        <textarea id="form_message" name="message" class="form-control"
+                                            placeholder="Your message" style="height: 150px" required></textarea>
                                         <label for="form_message">Message *</label>
                                         <div class="valid-feedback"> Looks good! </div>
                                         <div class="invalid-feedback"> Please enter your messsage. </div>
                                     </div>
                                 </div>
                                 <div class="col-12 text-center">
-                                    <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Send message">
+                                    <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3"
+                                        value="Send message">
                                     <p class="text-muted"><strong>*</strong> These fields are required.</p>
                                 </div>
                             </div>
@@ -255,13 +282,17 @@
             <div class="row gy-6 gy-lg-0">
                 <div class="col-md-4 col-lg-4">
                     <div class="widget">
-                        <img class="img-fluid mb-3" width="120px" src="../assets/img/logo.png" srcset="../assets/img/logo.png 2x" alt="" />
+                        <img class="img-fluid mb-3" width="120px" src="../assets/img/logo.png"
+                            srcset="../assets/img/logo.png 2x" alt="" />
                         <p class="mb-4">MaharashtraUdyog
                         </p>
                         <nav class="nav social social-white d-flex gap-2">
-                            <a href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i class="uil uil-facebook-f"></i></a>
-                            <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i class="uil uil-instagram"></i></a>
-                            <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i class="uil uil-youtube"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i
+                                    class="uil uil-facebook-f"></i></a>
+                            <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i
+                                    class="uil uil-instagram"></i></a>
+                            <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i
+                                    class="uil uil-youtube"></i></a>
                         </nav>
                     </div>
                 </div>
@@ -271,7 +302,8 @@
                         <address class="pe-xl-15 pe-xxl-17">1206, Navjivan Commercial Co-Op Society, Gate no.2, Building
                             No. 3, Lamington Road, Mumbai Central, Mumbai 400008
                         </address>
-                        <a href="mailto:#">support@avnivan.com</a><br /> +91 98200 30976
+                        <a href="mailto:#">support@avnivan.com</a><br /> 7977335626 <br> 8454984360 <br> 9820030971 <br>
+                        9987238461
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4">
