@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="../assets/css/plugins.css">
     <link rel="stylesheet" href="../assets/css/style.css">
     <style>
-    .wrapper.angled.upper-end:before {
-        top: auto !important;
-    }
+        .wrapper.angled.upper-end:before {
+            top: auto !important;
+        }
     </style>
 </head>
 
@@ -22,8 +22,7 @@
                 <div class="container flex-lg-row flex-nowrap align-items-center">
                     <div class="navbar-brand py-3 py-md-0">
                         <a href="index.php">
-                            <img class="img-fluid my-lg-3" width="85px" src="../assets/img/logo.png"
-                                srcset="../assets/img/logo.png 2x" alt="" />
+                            <img class="img-fluid my-lg-3" width="85px" src="../assets/img/logo.png" srcset="../assets/img/logo.png 2x" alt="" />
                         </a>
                     </div>
                     <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -49,13 +48,9 @@
                                     <a href="#" class="link-inverse"></a>
                                     <br />9987238461<br />
                                     <nav class="nav social social-white d-flex gap-2">
-                                        <a
-                                            href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i
-                                                class="uil uil-facebook-f"></i></a>
-                                        <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i
-                                                class="uil uil-instagram"></i></a>
-                                        <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i
-                                                class="uil uil-youtube"></i></a>
+                                        <a href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i class="uil uil-facebook-f"></i></a>
+                                        <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i class="uil uil-instagram"></i></a>
+                                        <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i class="uil uil-youtube"></i></a>
                                     </nav>
                                 </div>
                             </div>
@@ -64,11 +59,10 @@
                     <div class="navbar-other ms-lg-4">
                         <ul class="navbar-nav flex-row align-items-center ms-auto">
                             <li class="nav-item dropdown language-select text-uppercase">
-                                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button"
-                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
+                                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item"><a class="dropdown-item" href="../en/">English</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="../mr/">Marathi</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="../mr/">मराठी</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item d-lg-none">
@@ -87,29 +81,24 @@
                     </div>
                 </div>
             </div>
-            <figure class="position-absoute mt-lg-n20" style="bottom: 0; left: 0; z-index: 2;"><img
-                    src="../assets/img/extras/9bf0f664-6cb2-4d9d-b0d6-a1709ed60c9d.png" alt="" /></figure>
+            <figure class="position-absoute mt-lg-n20" style="bottom: 0; left: 0; z-index: 2;"><img src="../assets/img/extras/9bf0f664-6cb2-4d9d-b0d6-a1709ed60c9d.png" alt="" /></figure>
         </section>
         <section class="wrapper bg-light angled upper-end lower-end">
             <div class="container py-14 pb-0">
                 <div class="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center">
                     <div class="col-lg-6 position-relative order-lg-2">
-                        <div class="shape bg-dot primary rellax w-16 h-20" data-rellax-speed="1"
-                            style="top: 3rem; left: 5.5rem"></div>
+                        <div class="shape bg-dot primary rellax w-16 h-20" data-rellax-speed="1" style="top: 3rem; left: 5.5rem"></div>
                         <div class="overlap-grid overlap-grid-2">
                             <div class="item">
-                                <figure class="rounded shadow"><img src="../assets/img/extras/one_two.jpeg"
-                                        srcset="../assets/img/extras/one_two.jpeg 2x" alt="" class=""></figure>
+                                <figure class="rounded shadow"><img src="../assets/img/extras/one_two.jpeg" srcset="../assets/img/extras/one_two.jpeg 2x" alt="" class=""></figure>
                             </div>
                             <div class="item pt-0 pt-lg-20">
-                                <figure class="rounded shadow"><img src="../assets/img/extras/one.jpeg"
-                                        srcset="../assets/img/extras/one.jpeg 2x" alt=""></figure>
+                                <figure class="rounded shadow"><img src="../assets/img/extras/one.jpeg" srcset="../assets/img/extras/one.jpeg 2x" alt=""></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <img src="../assets/img/icons/lineal/megaphone.svg" class="svg-inject icon-svg icon-svg-md mb-4"
-                            alt="" />
+                        <img src="../assets/img/icons/lineal/megaphone.svg" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
                         <h2 class="display-4 mb-3">Who Are We?</h2>
                         <p class="mb-6">केंद्र आणि महाराष्ट्र शासन धोरणातर्गत
                             "उद्योग कर उद्योग"
@@ -155,8 +144,7 @@
                 </div>
                 <div class="row mb-5">
                     <div class="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
-                        <img src="../assets/img/icons/lineal/list.svg" class="svg-inject icon-svg icon-svg-md mb-4"
-                            alt="" />
+                        <img src="../assets/img/icons/lineal/list.svg" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
                         <h2 class="display-4 mb-4 px-lg-14">Here are 3 working steps to organize our business projects.
                         </h2>
                     </div>
@@ -167,8 +155,7 @@
                             <div class="card-body p-6">
                                 <div class="d-flex flex-row">
                                     <div>
-                                        <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span
-                                                class="number">01</span></span>
+                                        <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">01</span></span>
                                     </div>
                                     <div>
                                         <h4 class="mb-1">Collect Ideas</h4>
@@ -182,8 +169,7 @@
                             <div class="card-body p-6">
                                 <div class="d-flex flex-row">
                                     <div>
-                                        <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span
-                                                class="number">02</span></span>
+                                        <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">02</span></span>
                                     </div>
                                     <div>
                                         <h4 class="mb-1">Data Analysis</h4>
@@ -198,8 +184,7 @@
                             <div class="card-body p-6">
                                 <div class="d-flex flex-row">
                                     <div>
-                                        <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span
-                                                class="number">03</span></span>
+                                        <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">03</span></span>
                                     </div>
                                     <div>
                                         <h4 class="mb-1">Finalize Product</h4>
@@ -244,11 +229,9 @@
                 <div class="row grid-view gx-md-8 gx-xl-10 gy-8 gy-lg-0">
                     <div class="col-md-6 col-lg-3">
                         <div class="position-relative">
-                            <div class="shape rounded bg-soft-blue rellax d-md-block" data-rellax-speed="0"
-                                style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
+                            <div class="shape rounded bg-soft-blue rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
                             <div class="card">
-                                <figure class="card-img-top"><img class="img-fluid" src="../assets/img/extras/anil.jpeg"
-                                        alt="" /></figure>
+                                <figure class="card-img-top"><img class="img-fluid" src="../assets/img/extras/anil.jpeg" alt="" /></figure>
                                 <div class="card-body px-6 py-5">
                                     <h4 class="mb-1">Anil Phondekar</h4>
                                     <p class="mb-0">CEO</p>
@@ -258,11 +241,9 @@
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="position-relative">
-                            <div class="shape rounded bg-soft-red rellax d-md-block" data-rellax-speed="0"
-                                style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
+                            <div class="shape rounded bg-soft-red rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
                             <div class="card">
-                                <figure class="card-img-top"><img class="img-fluid"
-                                        src="../assets/img/extras/pradnya.jpeg" alt="" /></figure>
+                                <figure class="card-img-top"><img class="img-fluid" src="../assets/img/extras/pradnya.jpeg" alt="" /></figure>
                                 <div class="card-body px-6 py-5">
                                     <h4 class="mb-1">Pradnya Mohite</h4>
                                     <p class="mb-0">CFO</p>
@@ -272,11 +253,9 @@
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="position-relative">
-                            <div class="shape rounded bg-soft-green rellax d-md-block" data-rellax-speed="0"
-                                style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
+                            <div class="shape rounded bg-soft-green rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
                             <div class="card">
-                                <figure class="card-img-top"><img class="img-fluid"
-                                        src="../assets/img/extras/arbaz.jpeg" alt="" /></figure>
+                                <figure class="card-img-top"><img class="img-fluid" src="../assets/img/extras/arbaz.jpeg" alt="" /></figure>
                                 <div class="card-body px-6 py-5">
                                     <h4 class="mb-1">Arbaz</h4>
                                     <p class="mb-0">Senior Consultant</p>
@@ -286,11 +265,9 @@
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="position-relative">
-                            <div class="shape rounded bg-soft-violet rellax d-md-block" data-rellax-speed="0"
-                                style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
+                            <div class="shape rounded bg-soft-violet rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
                             <div class="card">
-                                <figure class="card-img-top"><img class="img-fluid"
-                                        src="../assets/img/extras/omkar.jpeg" alt="" /></figure>
+                                <figure class="card-img-top"><img class="img-fluid" src="../assets/img/extras/omkar.jpeg" alt="" /></figure>
                                 <div class="card-body px-6 py-5">
                                     <h4 class="mb-1">Omkar Phondekar </h4>
                                     <p class="mb-0">Consultant</p>
@@ -307,17 +284,13 @@
             <div class="row gy-6 gy-lg-0">
                 <div class="col-md-4 col-lg-4">
                     <div class="widget">
-                        <img class="img-fluid mb-3" width="120px" src="../assets/img/logo.png"
-                            srcset="../assets/img/logo.png 2x" alt="" />
+                        <img class="img-fluid mb-3" width="120px" src="../assets/img/logo.png" srcset="../assets/img/logo.png 2x" alt="" />
                         <p class="mb-4">MaharashtraUdyog
                         </p>
                         <nav class="nav social social-white d-flex gap-2">
-                            <a href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i
-                                    class="uil uil-facebook-f"></i></a>
-                            <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i
-                                    class="uil uil-instagram"></i></a>
-                            <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i
-                                    class="uil uil-youtube"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i class="uil uil-facebook-f"></i></a>
+                            <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i class="uil uil-instagram"></i></a>
+                            <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i class="uil uil-youtube"></i></a>
                         </nav>
                     </div>
                 </div>

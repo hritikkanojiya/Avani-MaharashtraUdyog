@@ -87,7 +87,7 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                 <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item"><a class="dropdown-item" href="../en/">English</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="../mr/">Marathi</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="../mr/">मराठी</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item d-lg-none">
@@ -169,7 +169,7 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                             <article>
                                                 <div class="card">
                                                     <figure class="card-img-top overlay overlay-1 hover-scale">
-                                                        <a href="https://maharashtraudyog.com/franchise.php?franchise_id=' . $value['franchise_id'] . '">
+                                                        <a href="https://maharashtraudyog.com/mr/franchise.php?franchise_id=' . $value['franchise_id'] . '">
                                                             <img class="img-fluid" src="https://cdn.maharashtraudyog.com/public/uploads/franchise/logos/' . $value['logo'] . '" alt="" /></a>
                                                         <figcaption>
                                                             <h5 class="from-top mb-0">Read More</h5>
@@ -177,7 +177,7 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                     </figure>
                                                     <div class="card-body px-5 p-md-8">
                                                         <div class="post-header">
-                                                            <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="https://maharashtraudyog.com/franchise.php?franchise_id=' . $value['franchise_id'] . '">' . $value['name'] . '</a>
+                                                            <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="https://maharashtraudyog.com/mr/franchise.php?franchise_id=' . $value['franchise_id'] . '">' . $value['name'] . '</a>
                                                             </h2>
                                                         </div>
                                                         <div class="post-content">
@@ -185,7 +185,7 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                         </div>
                                                     </div>
                                                     <div class="card-footer text-center">
-                                                        <a href="https://maharashtraudyog.com/franchise.php?franchise_id=' . $value['franchise_id'] . '" class="btn btn-sm btn-outline-gradient gradient-6 rounded-pill">
+                                                        <a href="https://maharashtraudyog.com/mr/franchise.php?franchise_id=' . $value['franchise_id'] . '" class="btn btn-sm btn-outline-gradient gradient-6 rounded-pill">
                                                             <span>Know More</span>
                                                         </a>
                                                     </div>
@@ -270,7 +270,8 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                         <address class="pe-xl-15 pe-xxl-17">1206, Navjivan Commercial Co-Op Society, Gate no.2, Building
                             No. 3, Lamington Road, Mumbai Central, Mumbai 400008
                         </address>
-                        <a href="mailto:#">support@maharashtraudyog.com</a><br /> 7977335626 <br> 8454984360 <br> 9820030971 <br>
+                        <a href="mailto:#">support@maharashtraudyog.com</a><br /> 7977335626 <br> 8454984360 <br>
+                        9820030971 <br>
                         9987238461
                     </div>
                 </div>

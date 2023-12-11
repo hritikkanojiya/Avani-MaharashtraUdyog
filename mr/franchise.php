@@ -114,7 +114,7 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                 <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item"><a class="dropdown-item" href="../en/">English</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="../mr/">Marathi</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="../mr/">मराठी</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item d-lg-none">
