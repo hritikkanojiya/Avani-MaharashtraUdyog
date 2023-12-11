@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MaharashtraUdyog</title>
-    <link rel="shortcut icon" href="./assets/img/logo.png">
-    <link rel="stylesheet" href="assets/css/plugins.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="../assets/img/logo.png">
+    <link rel="stylesheet" href="../assets/css/plugins.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
                 <div class="container flex-lg-row flex-nowrap align-items-center">
                     <div class="navbar-brand py-3 py-md-0">
                         <a href="index.php">
-                            <img class="img-fluid my-lg-3" width="65px" src="assets/img/logo.png" srcset="./assets/img/logo.png 2x" alt="" />
+                            <img class="img-fluid my-lg-3" width="85px" src="../assets/img/logo.png" srcset="../assets/img/logo.png 2x" alt="" />
                         </a>
                     </div>
                     <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -61,7 +61,7 @@
                 </div>
             </nav>
         </header>
-        <section class="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 text-white" data-image-src="assets/img/extras/service_hero.jpeg">
+        <section class="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 text-white" data-image-src="../assets/img/extras/service_hero.jpeg">
             <div class="container pt-17 pb-20 pt-md-19 pb-md-21 text-center">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
@@ -251,11 +251,11 @@
         </section>
     </div>
     <footer class="bg-dark text-inverse">
-        <div class="container py-15 pb-10">
+        <div class="container py-10 pb-10">
             <div class="row gy-6 gy-lg-0">
                 <div class="col-md-4 col-lg-4">
                     <div class="widget">
-                        <img class="img-fluid mb-3" width="100px" src="./assets/img/logo.png" srcset="./assets/img/logo.png 2x" alt="" />
+                        <img class="img-fluid mb-3" width="120px" src="../assets/img/logo.png" srcset="../assets/img/logo.png 2x" alt="" />
                         <p class="mb-4">MaharashtraUdyog
                         </p>
                         <nav class="nav social social-white d-flex gap-2">
@@ -284,7 +284,7 @@
                         </ul>
                     </div>
                 </div>
-                <hr class="mt-13 mb-7" />
+                <hr class="my-5" />
                 <div class="d-md-flex align-items-center justify-content-center">
                     <p class="mb-2 mb-lg-0">© 2023 MaharashtraUdyog. All rights reserved.</p>
                 </div>
@@ -296,8 +296,8 @@
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
         </svg>
     </div>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/theme.js"></script>
+    <script src="../assets/js/plugins.js"></script>
+    <script src="../assets/js/theme.js"></script>
 </body>
 
 </html>
