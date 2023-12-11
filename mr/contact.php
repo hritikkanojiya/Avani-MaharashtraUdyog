@@ -67,7 +67,7 @@
             </nav>
         </header>
         <section class="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 text-white"
-            data-image-src="../assets/img/extras/service_hero.jpeg">
+            data-image-src="../assets/img/extras/chota.jpg">
             <div class="container pt-17 pb-20 pt-md-19 pb-md-21 text-center">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
@@ -133,13 +133,10 @@
                                             <div>
                                                 <h5 class="mb-1">E-mail</h5>
                                                 <p class="mb-0">
-                                                    <a href="mailto:support@avnivan.com"
-                                                        class="link-body">support@avnivan.com</a>
+                                                    <a href="mailto:support@maharashtraudyog.com"
+                                                        class="link-body">support@maharashtraudyog.com</a>
                                                 </p>
-                                                <p class="mb-0">
-                                                    <a href="mailto:avnivan24@gmail.com"
-                                                        class="link-body">avnivan24@gmail.com</a>
-                                                </p>
+
                                             </div>
                                         </div>
                                     </div>
@@ -187,13 +184,10 @@
                                             <div>
                                                 <h5 class="mb-1">E-mail</h5>
                                                 <p class="mb-0">
-                                                    <a href="mailto:support@avnivan.com"
-                                                        class="link-body">support@avnivan.com</a>
+                                                    <a href="mailto:support@maharashtraudyog.com"
+                                                        class="link-body">support@maharashtraudyog.com</a>
                                                 </p>
-                                                <p class="mb-0">
-                                                    <a href="mailto:avnivan24@gmail.com"
-                                                        class="link-body">avnivan24@gmail.com</a>
-                                                </p>
+
                                             </div>
                                         </div>
                                     </div>
@@ -302,7 +296,8 @@
                         <address class="pe-xl-15 pe-xxl-17">1206, Navjivan Commercial Co-Op Society, Gate no.2, Building
                             No. 3, Lamington Road, Mumbai Central, Mumbai 400008
                         </address>
-                        <a href="mailto:#">support@avnivan.com</a><br /> 7977335626 <br> 8454984360 <br> 9820030971 <br>
+                        <a href="mailto:#">support@maharashtraudyog.com</a><br /> 7977335626 <br> 8454984360 <br>
+                        9820030971 <br>
                         9987238461
                     </div>
                 </div>

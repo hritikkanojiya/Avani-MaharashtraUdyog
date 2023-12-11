@@ -270,7 +270,7 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                         <address class="pe-xl-15 pe-xxl-17">1206, Navjivan Commercial Co-Op Society, Gate no.2, Building
                             No. 3, Lamington Road, Mumbai Central, Mumbai 400008
                         </address>
-                        <a href="mailto:#">support@avnivan.com</a><br /> 7977335626 <br> 8454984360 <br> 9820030971 <br>
+                        <a href="mailto:#">support@maharashtraudyog.com</a><br /> 7977335626 <br> 8454984360 <br> 9820030971 <br>
                         9987238461
                     </div>
                 </div>
