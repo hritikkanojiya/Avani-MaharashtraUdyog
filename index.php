@@ -1,2 +1,2 @@
 <?php
-header('Location: http://localhost/maharashtraudyog.com/mr/');
+header('Location: http://maharashtraudyog.com/mr/');
