@@ -68,6 +68,12 @@ if (isset($curl_response_get_fr['status']) && $curl_response_get_fr['status'] ==
 
     echo '<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>';
 
+    ?>
+</head>
+
+<body>
+    <?php
+
     if (isset($curl_response['status']) && $curl_response['status'] == "success") {
         echo "<script>Swal.fire({
         title: 'Success',
@@ -83,9 +89,6 @@ if (isset($curl_response_get_fr['status']) && $curl_response_get_fr['status'] ==
     }
 
     ?>
-</head>
-
-<body>
     <div class="content-wrapper">
         <header class="wrapper bg-gray">
             <nav class="navbar navbar-expand-lg center-logo transparent navbar-light">
