@@ -22,7 +22,7 @@ if (isset($_POST['name'])) {
         echo "<script>alert('Something went wrong')</script>";
     }
 
-    header('Location: https://maharashtraudyog.com?franchise.php?franchise_id=' . $_GET["franchise_id"]);
+    header('Location: https://maharashtraudyog.com/mr/franchise.php?franchise_id=' . $_GET["franchise_id"]);
 }
 if (!isset($_GET['franchise_id'])) {
     header('Location: https://maharashtraudyog.com');
@@ -60,9 +60,9 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
     <link rel="stylesheet" href="../assets/css/colors/grape.css">
     <link rel="preload" href="../assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'">
     <style>
-        input:placeholder-shown {
-            text-overflow: ellipsis;
-        }
+    input:placeholder-shown {
+        text-overflow: ellipsis;
+    }
     </style>
 </head>
 
@@ -73,7 +73,8 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                 <div class="container flex-lg-row flex-nowrap align-items-center">
                     <div class="navbar-brand py-3 py-md-0">
                         <a href="index.php">
-                            <img class="img-fluid my-lg-3" width="85px" src="../assets/img/logo.png" srcset="../assets/img/logo.png 2x" alt="" />
+                            <img class="img-fluid my-lg-3" width="85px" src="../assets/img/logo.png"
+                                srcset="../assets/img/logo.png 2x" alt="" />
                         </a>
                     </div>
                     <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -100,9 +101,12 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                     <a href="#" class="link-inverse"></a>
                                     <br />9987238461<br />
                                     <nav class="nav social social-white d-flex gap-2">
-                                        <a href="https://www.facebook.com/themaharashtraudyog?mibextid=nwBsNb"><i class="uil uil-facebook-f"></i></a>
-                                        <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i class="uil uil-instagram"></i></a>
-                                        <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i class="uil uil-youtube"></i></a>
+                                        <a href="https://www.facebook.com/themaharashtraudyog?mibextid=nwBsNb"><i
+                                                class="uil uil-facebook-f"></i></a>
+                                        <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i
+                                                class="uil uil-instagram"></i></a>
+                                        <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i
+                                                class="uil uil-youtube"></i></a>
                                     </nav>
                                 </div>
                             </div>
@@ -111,14 +115,16 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                     <div class="navbar-other ms-lg-4">
                         <ul class="navbar-nav flex-row align-items-center ms-auto">
                             <li class="nav-item dropdown language-select text-uppercase d-sm-block d-md-none">
-                                <a class="nav-link dropdown-item dropdown-toggle fs-18" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
+                                <a class="nav-link dropdown-item dropdown-toggle fs-18" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item"><a class="dropdown-item" href="../en/">English</a></li>
                                     <li class="nav-item"><a class="dropdown-item" href="../mr/">मराठी</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown language-select text-uppercase d-none d-md-block">
-                                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
+                                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item"><a class="dropdown-item" href="../en/">English</a></li>
                                     <li class="nav-item"><a class="dropdown-item" href="../mr/">मराठी</a></li>
@@ -139,14 +145,18 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                         <h2 class="h1 mb-4 fw-bold text-center fs-45"><?= $franchise[0]['name'] ?></h2>
                         <div class="widget card mb-5">
                             <figure class="card-img-top text-center">
-                                <img class="img-fluid p-5 py-0" src="https://cdn.maharashtraudyog.com/public/uploads/franchise/logos/<?= $franchise[0]['logo'] ?>" alt="" />
+                                <img class="img-fluid p-5 py-0"
+                                    src="https://cdn.maharashtraudyog.com/public/uploads/franchise/logos/<?= $franchise[0]['logo'] ?>"
+                                    alt="" />
                             </figure>
                         </div>
                     </aside>
                     <div class="col-lg-8">
                         <div class="blog single">
                             <div class="card">
-                                <div class="swiper-container m-5" data-margin="30" data-dots="true" data-items-xl="2" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true" data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
+                                <div class="swiper-container m-5" data-margin="30" data-dots="true" data-items-xl="2"
+                                    data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true"
+                                    data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
                                     <div class="swiper">
                                         <div class="swiper-wrapper">
                                             <?php
@@ -181,8 +191,8 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                 <p><?= $franchise[0]['franchise_details'] ?></p>
                                                 <hr class="my-5" />
                                                 <?php if (isset($franchise[0]['operating_manual']) && $franchise[0]['operating_manual'] != "NA") { ?>
-                                                    <h2 class="h4 mb-4">Operating Manual</h2>
-                                                    <p><?php echo $franchise[0]['operating_manual'] ?></p>
+                                                <h2 class="h4 mb-4">Operating Manual</h2>
+                                                <p><?php echo $franchise[0]['operating_manual'] ?></p>
                                                 <?php } ?>
                                             </div>
                                         </article>
@@ -194,7 +204,9 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                     <aside class="col-lg-4 sidebar mt-lg-0 mt-5">
                         <div class="widget card d-none d-md-block">
                             <figure class="card-img-top text-center">
-                                <img class="img-fluid w-75" src="https://cdn.maharashtraudyog.com/public/uploads/franchise/logos/<?= $franchise[0]['logo'] ?>" alt="" />
+                                <img class="img-fluid w-75"
+                                    src="https://cdn.maharashtraudyog.com/public/uploads/franchise/logos/<?= $franchise[0]['logo'] ?>"
+                                    alt="" />
                             </figure>
                         </div>
                         <div class="widget">
@@ -267,39 +279,50 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                     <div class="col-xl-10 mx-auto">
                                         <div class="row gy-10 gx-lg-8 gx-xl-12">
                                             <div class="col-lg-12">
-                                                <form class="" method="post" action="https://maharashtraudyog.com/mr/franchise.php?franchise_id=<?= $_GET['franchise_id'] ?>">
-                                                    <input id="" type="hidden" name="franchise_id" class="form-control" value="<?= $_GET['franchise_id'] ?>" required>
+                                                <form class="" method="post"
+                                                    action="https://maharashtraudyog.com/mr/franchise.php?franchise_id=<?= $_GET['franchise_id'] ?>">
+                                                    <input id="" type="hidden" name="franchise_id" class="form-control"
+                                                        value="<?= $_GET['franchise_id'] ?>" required>
                                                     <div class="row gx-4">
                                                         <div class="col-md-8">
                                                             <div class="form-floating mb-4">
-                                                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Name of Customer" required>
+                                                                <input id="form_name" type="text" name="name"
+                                                                    class="form-control" placeholder="Name of Customer"
+                                                                    required>
                                                                 <label for="form_name">Name of Customer</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
                                                             <div class="form-floating mb-4">
-                                                                <input id="form_lasstname" type="date" name="dob" class="form-control" placeholder="Date Of Birth" required>
+                                                                <input id="form_lasstname" type="date" name="dob"
+                                                                    class="form-control" placeholder="Date Of Birth"
+                                                                    required>
                                                                 <label for="form_lastname">Date of Birth
                                                                     *</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
                                                             <div class="form-floating mb-4">
-                                                                <input id="" type="text" name="contact" class="form-control" placeholder="Contact Number" required>
+                                                                <input id="" type="text" name="contact"
+                                                                    class="form-control" placeholder="Contact Number"
+                                                                    required>
                                                                 <label for="">Contact Number
                                                                     *</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
                                                             <div class="form-floating mb-4">
-                                                                <input id="" type="text" name="whatsapp" class="form-control" placeholder="WhatsApp Number" required>
+                                                                <input id="" type="text" name="whatsapp"
+                                                                    class="form-control" placeholder="WhatsApp Number"
+                                                                    required>
                                                                 <label for="">WhatsApp Number
                                                                     *</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
                                                             <div class="form-select-wrapper mb-4">
-                                                                <select class="form-select" id="form-select" name="cast" required>
+                                                                <select class="form-select" id="form-select" name="cast"
+                                                                    required>
                                                                     <option selected disabled value="">Select cast
                                                                     </option>
                                                                     <option value="Maratha">Maratha</option>
@@ -312,7 +335,8 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                         </div>
                                                         <div class="col-md-4">
                                                             <div class="form-select-wrapper mb-4">
-                                                                <select class="form-select" id="form-select" name="maritial" required>
+                                                                <select class="form-select" id="form-select"
+                                                                    name="maritial" required>
                                                                     <option selected disabled value="">Marital Status
                                                                     </option>
                                                                     <option value="Married">Married</option>
@@ -324,7 +348,8 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                         </div>
                                                         <div class="col-md-4">
                                                             <div class="form-select-wrapper mb-4">
-                                                                <select class="form-select" id="form-select" name="district" required>
+                                                                <select class="form-select" id="form-select"
+                                                                    name="district" required>
                                                                     <option selected disabled value="">महाराष्ट्रातील 35
                                                                         जिल्हे
                                                                     </option>
@@ -379,14 +404,18 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                         </div>
                                                         <div class="col-md-6">
                                                             <div class="form-floating mb-4">
-                                                                <input id="" type="text" name="job_desc" class="form-control" placeholder="नोकरीं करत असाल तर कंपनीचे नाव">
+                                                                <input id="" type="text" name="job_desc"
+                                                                    class="form-control"
+                                                                    placeholder="नोकरीं करत असाल तर कंपनीचे नाव">
                                                                 <label for="">नोकरीं करत असाल तर कंपनीचे
                                                                     नाव</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6">
                                                             <div class="form-floating mb-4">
-                                                                <input id="" type="text" name="job_desc" class="form-control" placeholder="व्यवसाय करत असाल तर तुमच्या प्रॉडक्ट आणि कंपनीचे नाव">
+                                                                <input id="" type="text" name="job_desc"
+                                                                    class="form-control"
+                                                                    placeholder="व्यवसाय करत असाल तर तुमच्या प्रॉडक्ट आणि कंपनीचे नाव">
                                                                 <label for="" class="text-truncate w-100">व्यवसाय करत
                                                                     असाल तर तुमच्या
                                                                     प्रॉडक्ट आणि कंपनीचे नाव</label>
@@ -394,7 +423,8 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                         </div>
                                                         <div class="col-md-12">
                                                             <div class="form-select-wrapper mb-4">
-                                                                <select class="form-select" id="form-select" name="district" required>
+                                                                <select class="form-select" id="form-select"
+                                                                    name="district" required>
                                                                     <option selected disabled value="">तुम्ही कुठल्या
                                                                         क्षेत्रात व्यवसाय करू इच्छिता</option>
                                                                     <option value="AUTOMOBILE">AUTOMOBILE</option>
@@ -426,14 +456,19 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                         </div>
                                                         <div class="col-12">
                                                             <div class="form-floating mb-4">
-                                                                <textarea id="form_message" name="address" class="form-control" placeholder="Your address" style="height: 150px" required></textarea>
+                                                                <textarea id="form_message" name="address"
+                                                                    class="form-control" placeholder="Your address"
+                                                                    style="height: 150px" required></textarea>
                                                                 <label for="form_message">Address
                                                                     *</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-12">
                                                             <div class="form-floating mb-4">
-                                                                <input id="" type="text" name="acknowledgement" class="form-control" placeholder="मी दिलेली माहिती खरी असून मला उद्योग कर उद्योग या कार्यक्रमात उपस्थित राहायचे आहे." required>
+                                                                <input id="" type="text" name="acknowledgement"
+                                                                    class="form-control"
+                                                                    placeholder="मी दिलेली माहिती खरी असून मला उद्योग कर उद्योग या कार्यक्रमात उपस्थित राहायचे आहे."
+                                                                    required>
                                                                 <label for="" class="text-truncate w-100">मी दिलेली
                                                                     माहिती खरी असून मला उद्योग कर
                                                                     उद्योग या कार्यक्रमात उपस्थित राहायचे आहे.
@@ -441,7 +476,9 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                                             </div>
                                                         </div>
                                                         <div class="col-12 text-center mt-5">
-                                                            <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Apply Now">
+                                                            <input type="submit"
+                                                                class="btn btn-primary rounded-pill btn-send mb-3"
+                                                                value="Apply Now">
                                                         </div>
                                                     </div>
                                                 </form>
@@ -461,13 +498,17 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
             <div class="row gy-6 gy-lg-0">
                 <div class="col-md-4 col-lg-4">
                     <div class="widget">
-                        <img class="img-fluid mb-3" width="120px" src="../assets/img/logo.png" srcset="../assets/img/logo.png 2x" alt="" />
+                        <img class="img-fluid mb-3" width="120px" src="../assets/img/logo.png"
+                            srcset="../assets/img/logo.png 2x" alt="" />
                         <p class="mb-4">MaharashtraUdyog
                         </p>
                         <nav class="nav social social-white d-flex gap-2">
-                            <a href="https://www.facebook.com/themaharashtraudyog?mibextid=nwBsNb"><i class="uil uil-facebook-f"></i></a>
-                            <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i class="uil uil-instagram"></i></a>
-                            <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i class="uil uil-youtube"></i></a>
+                            <a href="https://www.facebook.com/themaharashtraudyog?mibextid=nwBsNb"><i
+                                    class="uil uil-facebook-f"></i></a>
+                            <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i
+                                    class="uil uil-instagram"></i></a>
+                            <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i
+                                    class="uil uil-youtube"></i></a>
                         </nav>
                     </div>
                 </div>
