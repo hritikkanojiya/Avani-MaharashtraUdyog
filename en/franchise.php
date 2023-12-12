@@ -73,19 +73,21 @@ if (isset($curl_response_get_fr['status']) && $curl_response_get_fr['status'] ==
 
 <body>
     <?php
+    if (isset($_POST['name'])) {
 
-    if (isset($curl_response['status']) && $curl_response['status'] == "success") {
-        echo "<script>Swal.fire({
+        if (isset($curl_response['status']) && $curl_response['status'] == "success") {
+            echo "<script>Swal.fire({
         title: 'Success',
         text: 'Thank you. Our team will review your application and get back you soon.',
         icon: 'success'
         });</script>";
-    } else {
-        echo "<script>Swal.fire({
+        } else {
+            echo "<script>Swal.fire({
         title: 'Failed',
         text: 'Something went wrong',
         icon: 'error'
         });</script>";
+        }
     }
 
     ?>
