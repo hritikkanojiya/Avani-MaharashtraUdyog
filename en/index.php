@@ -65,9 +65,9 @@ $gallery_video = array(
     <link rel="stylesheet" href="../assets/css/colors/grape.css">
     <link rel="preload" href="../assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'">
     <style>
-    ::-webkit-scrollbar {
-        display: none;
-    }
+        ::-webkit-scrollbar {
+            display: none;
+        }
     </style>
 </head>
 
@@ -78,8 +78,7 @@ $gallery_video = array(
                 <div class="container flex-lg-row flex-nowrap align-items-center">
                     <div class="navbar-brand py-3 py-md-0">
                         <a href="index.php">
-                            <img class="img-fluid my-lg-3" width="85px" src="../assets/img/logo.png"
-                                srcset="../assets/img/logo.png 2x" alt="" />
+                            <img class="img-fluid my-lg-3" width="85px" src="../assets/img/logo.png" srcset="../assets/img/logo.png 2x" alt="" />
                         </a>
                     </div>
                     <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -104,12 +103,9 @@ $gallery_video = array(
                                     <a href="#" class="link-inverse"></a>
                                     <br />9987238461<br />
                                     <nav class="nav social social-white d-flex gap-2">
-                                        <a href="https://www.facebook.com/themaharashtraudyog?mibextid=nwBsNb"><i
-                                                class="uil uil-facebook-f"></i></a>
-                                        <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i
-                                                class="uil uil-instagram"></i></a>
-                                        <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i
-                                                class="uil uil-youtube"></i></a>
+                                        <a href="https://www.facebook.com/themaharashtraudyog?mibextid=nwBsNb"><i class="uil uil-facebook-f"></i></a>
+                                        <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i class="uil uil-instagram"></i></a>
+                                        <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i class="uil uil-youtube"></i></a>
                                     </nav>
                                 </div>
                             </div>
@@ -117,9 +113,15 @@ $gallery_video = array(
                     </div>
                     <div class="navbar-other ms-lg-4">
                         <ul class="navbar-nav flex-row align-items-center ms-auto">
-                            <li class="nav-item dropdown language-select text-uppercase">
-                                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button"
-                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
+                            <li class="nav-item dropdown language-select text-uppercase d-sm-block d-md-none">
+                                <a class="nav-link dropdown-item dropdown-toggle fs-18" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="dropdown-item" href="../en/">English</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="../mr/">मराठी</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown language-select text-uppercase d-none d-md-block">
+                                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item"><a class="dropdown-item" href="../en/">English</a></li>
                                     <li class="nav-item"><a class="dropdown-item" href="../mr/">मराठी</a></li>
@@ -134,12 +136,10 @@ $gallery_video = array(
             </nav>
         </header>
         <section class="section-frame br-fix overflow-hidden">
-            <div class="wrapper image-wrapper bg-cover bg-image bg-overlay bg-overlay-500 d-block d-md-none"
-                data-image-src="../assets/img/extras/home_page.jpg" style="background-size: contain; min-height:10px" ;>
+            <div class="wrapper image-wrapper bg-cover bg-image bg-overlay bg-overlay-500 d-block d-md-none" data-image-src="../assets/img/extras/home_page.jpg" style="background-size: contain; min-height:10px" ;>
                 <div class=" container pt-lg-18 pb-lg-19 text-center pt-10">
                     <div class="row">
-                        <div class="col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto pb-5" data-cues="zoomIn"
-                            data-group="page-title" data-interval="-200" data-delay="500">
+                        <div class="col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto pb-5" data-cues="zoomIn" data-group="page-title" data-interval="-200" data-delay="500">
                             <h2 class="h6 fs-25 text-uppercase ls-xl text-white mb-5 fw-bold">मी करेन उद्योग, मी होईन
                                 उद्योजक
                                 !!!
@@ -147,9 +147,7 @@ $gallery_video = array(
                             <h3 class="display-1 fs-35 text-white mb-5 fw-normal">Maharashtra Udyog facilitates the
                                 expansion of businesses by connecting franchisors and potential franchises.
                             </h3>
-                            <a href="https://www.youtube.com/watch?v=yOigqgubXx8"
-                                class="btn btn-circle btn-white btn-play ripple mx-auto" data-glightbox><i
-                                    class="icn-caret-right"></i></a>
+                            <a href="https://www.youtube.com/watch?v=yOigqgubXx8" class="btn btn-circle btn-white btn-play ripple mx-auto" data-glightbox><i class="icn-caret-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -161,21 +159,17 @@ $gallery_video = array(
                     </div>
                 </div>
             </div>
-            <div class="wrapper image-wrapper bg-cover bg-image bg-overlay bg-overlay-500 d-none d-md-block"
-                data-image-src="../assets/img/extras/home_page.jpg">
+            <div class="wrapper image-wrapper bg-cover bg-image bg-overlay bg-overlay-500 d-none d-md-block" data-image-src="../assets/img/extras/home_page.jpg">
                 <div class="container pt-15 pt-lg-18 pb-17 pb-lg-19 text-center">
                     <div class="row">
-                        <div class="col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto" data-cues="zoomIn"
-                            data-group="page-title" data-interval="-200" data-delay="500">
+                        <div class="col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto" data-cues="zoomIn" data-group="page-title" data-interval="-200" data-delay="500">
                             <h2 class="h6 fs-30 text-uppercase ls-xl text-white mb-5">मी करेन उद्योग, मी होईन उद्योजक
                                 !!!
                             </h2>
                             <h3 class="display-1 fs-40 text-white mb-7">Maharashtra Udyog facilitates the
                                 expansion of businesses by connecting franchisors and potential franchises.
                             </h3>
-                            <a href="https://www.youtube.com/watch?v=yOigqgubXx8"
-                                class="btn btn-circle btn-white btn-play ripple mx-auto" data-glightbox><i
-                                    class="icn-caret-right"></i></a>
+                            <a href="https://www.youtube.com/watch?v=yOigqgubXx8" class="btn btn-circle btn-white btn-play ripple mx-auto" data-glightbox><i class="icn-caret-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -193,17 +187,19 @@ $gallery_video = array(
                 <div class="row">
                     <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto">
                         <h2 class="fs-18 text-uppercase text-primary text-center mb-3">Franchisors Available</h2>
-                        <h3 class="display-4 mb-6 text-center">Maharashtra Udyog facilitates fruitful partnerships with
+                        <h3 class="display-4 mb-6 text-center d-sm-block d-md-none fs-20 fw-bold">Maharashtra Udyog
+                            facilitates fruitful
+                            partnerships with
+                            franchisors for businesses</h3>
+                        <h3 class="display-4 mb-6 text-center d-none d-md-block">Maharashtra Udyog facilitates fruitful
+                            partnerships with
                             franchisors for businesses</h3>
                     </div>
                 </div>
                 <div class="position-relative">
-                    <div class="shape bg-dot primary rellax w-17 h-20" data-rellax-speed="1"
-                        style="top: 0; left: -1.7rem;">
+                    <div class="shape bg-dot primary rellax w-17 h-20" data-rellax-speed="1" style="top: 0; left: -1.7rem;">
                     </div>
-                    <div class="swiper-container dots-closer blog grid-view mb-6" data-margin="0" data-dots="true"
-                        data-items-xl="3" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true"
-                        data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
+                    <div class="swiper-container dots-closer blog grid-view mb-6" data-margin="0" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true" data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
                         <div class="swiper">
                             <div class="swiper-wrapper">
                                 <?php
@@ -246,12 +242,9 @@ $gallery_video = array(
                     </div>
                 </div>
                 <div class="position-relative pt-10">
-                    <div class="shape bg-dot primary rellax w-17 h-20" data-rellax-speed="1"
-                        style="top: 0; left: -1.7rem;">
+                    <div class="shape bg-dot primary rellax w-17 h-20" data-rellax-speed="1" style="top: 0; left: -1.7rem;">
                     </div>
-                    <div class="swiper-container dots-closer blog grid-view mb-6" data-margin="0" data-dots="true"
-                        data-items-xl="3" data-items-md="2" data-items-xs="1" data-speed="1000" data-autoplay="true"
-                        data-autoplaytime="2000" data-loop="true" data-drag="true" data-updateresize="true">
+                    <div class="swiper-container dots-closer blog grid-view mb-6" data-margin="0" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1" data-speed="1000" data-autoplay="true" data-autoplaytime="2000" data-loop="true" data-drag="true" data-updateresize="true">
                         <div class="swiper">
                             <div class="swiper-wrapper">
                                 <?php
@@ -306,9 +299,7 @@ $gallery_video = array(
                 </div>
             </div>
             <div class="container-fluid px-md-6">
-                <div class="swiper-container blog grid-view mb-15" data-margin="30" data-nav="true" data-dots="true"
-                    data-items-xxl="3" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true"
-                    data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
+                <div class="swiper-container blog grid-view mb-15" data-margin="30" data-nav="true" data-dots="true" data-items-xxl="3" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true" data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
                     <div class="swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -343,33 +334,26 @@ $gallery_video = array(
                 </div>
             </div>
             <?php if (isset($gallery_video) && is_array($gallery_video)) { ?>
-            <div class="container-fluid px-md-6">
-                <div class="swiper-container blog grid-view mb-15" data-margin="30" data-nav="true" data-dots="true"
-                    data-items-xxl="3" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true"
-                    data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
-                    <div class="swiper">
-                        <div class="swiper-wrapper">
-                            <?php for ($i = 0; $i < count($gallery_video); $i++) {  ?>
-                            <div class="swiper-slide">
-                                <div class="position-relative" data-cue="slideInDown" data-show="true"
-                                    style="animation-name: slideInDown; animation-duration: 700ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
-                                    <a href="https://www.youtube.com/watch?v=<?= $gallery_video[$i] ?>"
-                                        class="btn btn-circle btn-primary btn-play ripple mx-auto mb-6 position-absolute"
-                                        style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;"
-                                        data-glightbox="">
-                                        <i class="icn-caret-right"></i>
-                                    </a>
-                                    <figure class="rounded shadow-lg">
-                                        <img src="https://i.ytimg.com/vi/<?= $gallery_video[$i] ?>/hqdefault.jpg"
-                                            alt="">
-                                    </figure>
-                                </div>
+                <div class="container-fluid px-md-6">
+                    <div class="swiper-container blog grid-view mb-15" data-margin="30" data-nav="true" data-dots="true" data-items-xxl="3" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true" data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <?php for ($i = 0; $i < count($gallery_video); $i++) {  ?>
+                                    <div class="swiper-slide">
+                                        <div class="position-relative" data-cue="slideInDown" data-show="true" style="animation-name: slideInDown; animation-duration: 700ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                                            <a href="https://www.youtube.com/watch?v=<?= $gallery_video[$i] ?>" class="btn btn-circle btn-primary btn-play ripple mx-auto mb-6 position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox="">
+                                                <i class="icn-caret-right"></i>
+                                            </a>
+                                            <figure class="rounded shadow-lg">
+                                                <img src="https://i.ytimg.com/vi/<?= $gallery_video[$i] ?>/hqdefault.jpg" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                <?php } ?>
                             </div>
-                            <?php } ?>
                         </div>
                     </div>
                 </div>
-            </div>
             <?php } ?>
         </section>
     </div>
@@ -378,17 +362,13 @@ $gallery_video = array(
             <div class="row gy-6 gy-lg-0">
                 <div class="col-md-4 col-lg-4">
                     <div class="widget">
-                        <img class="img-fluid mb-3" width="120px" src="../assets/img/logo.png"
-                            srcset="../assets/img/logo.png 2x" alt="" />
+                        <img class="img-fluid mb-3" width="120px" src="../assets/img/logo.png" srcset="../assets/img/logo.png 2x" alt="" />
                         <p class="mb-4">MaharashtraUdyog
                         </p>
                         <nav class="nav social social-white d-flex gap-2">
-                            <a href="https://www.facebook.com/themaharashtraudyog?mibextid=nwBsNb"><i
-                                    class="uil uil-facebook-f"></i></a>
-                            <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i
-                                    class="uil uil-instagram"></i></a>
-                            <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i
-                                    class="uil uil-youtube"></i></a>
+                            <a href="https://www.facebook.com/themaharashtraudyog?mibextid=nwBsNb"><i class="uil uil-facebook-f"></i></a>
+                            <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i class="uil uil-instagram"></i></a>
+                            <a href="https://youtube.com/@themaharashtraudyog9615?si=CzGqU4Kvf3u6hA-N"><i class="uil uil-youtube"></i></a>
                         </nav>
                     </div>
                 </div>

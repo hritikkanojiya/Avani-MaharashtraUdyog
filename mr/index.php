@@ -117,7 +117,15 @@ $gallery_video = array(
                     </div>
                     <div class="navbar-other ms-lg-4">
                         <ul class="navbar-nav flex-row align-items-center ms-auto">
-                            <li class="nav-item dropdown language-select text-uppercase">
+                            <li class="nav-item dropdown language-select text-uppercase d-sm-block d-md-none">
+                                <a class="nav-link dropdown-item dropdown-toggle fs-18" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="dropdown-item" href="../en/">English</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="../mr/">मराठी</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown language-select text-uppercase d-none d-md-block">
                                 <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
                                 <ul class="dropdown-menu">
@@ -194,7 +202,12 @@ $gallery_video = array(
                 <div class="row">
                     <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto">
                         <h2 class="fs-18 text-uppercase text-primary text-center mb-3">Franchisors Available</h2>
-                        <h3 class="display-4 mb-6 text-center">Maharashtra Udyog facilitates fruitful partnerships with
+                        <h3 class="display-4 mb-6 text-center d-sm-block d-md-none fs-20 fw-bold">Maharashtra Udyog
+                            facilitates fruitful
+                            partnerships with
+                            franchisors for businesses</h3>
+                        <h3 class="display-4 mb-6 text-center d-none d-md-block">Maharashtra Udyog facilitates fruitful
+                            partnerships with
                             franchisors for businesses</h3>
                     </div>
                 </div>
