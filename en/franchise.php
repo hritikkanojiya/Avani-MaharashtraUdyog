@@ -36,12 +36,12 @@ curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array(
     'Accept: application/json',
 ));
-$curl_request = curl_exec($ch);
+$curl_request_get_fr = curl_exec($ch);
 curl_close($ch);
-$curl_response = json_decode($curl_request, true);
+$curl_response_get_fr = json_decode($curl_request_get_fr, true);
 $franchise = array();
-if (isset($curl_response['status']) && $curl_response['status'] == "success") {
-    $franchise = $curl_response['franchise'];
+if (isset($curl_response_get_fr['status']) && $curl_response_get_fr['status'] == "success") {
+    $franchise = $curl_response_get_fr['franchise'];
 } else {
     header('Location: https://maharashtraudyog.com');
 }
@@ -64,6 +64,25 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
         text-overflow: ellipsis;
     }
     </style>
+    <?php
+
+    echo '<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>';
+
+    if (isset($curl_response['status']) && $curl_response['status'] == "success") {
+        echo "<script>Swal.fire({
+        title: 'Success',
+        text: 'Thank you. Our team will review your application and get back you soon.',
+        icon: 'success'
+        });</script>";
+    } else {
+        echo "<script>Swal.fire({
+        title: 'Failed',
+        text: 'Something went wrong',
+        icon: 'error'
+        });</script>";
+    }
+
+    ?>
 </head>
 
 <body>
