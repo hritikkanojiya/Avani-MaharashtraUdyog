@@ -44,8 +44,7 @@
                                     <a href="#" class="link-inverse"></a>
                                     <br />9987238461<br />
                                     <nav class="nav social social-white d-flex gap-2">
-                                        <a
-                                            href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i
+                                        <a href="https://www.facebook.com/themaharashtraudyog?mibextid=nwBsNb"><i
                                                 class="uil uil-facebook-f"></i></a>
                                         <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i
                                                 class="uil uil-instagram"></i></a>
@@ -203,7 +202,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row d-none">
                     <div class="col-lg-12 offset-lg-1 col-xl-8 offset-xl-2">
                         <h2 class="display-4 mb-3 text-center">Drop Us a Line</h2>
                         <p class="lead text-center mb-10">Reach out to us from our contact form and we will get back to
@@ -281,7 +280,7 @@
                         <p class="mb-4">MaharashtraUdyog
                         </p>
                         <nav class="nav social social-white d-flex gap-2">
-                            <a href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i
+                            <a href="https://www.facebook.com/themaharashtraudyog?mibextid=nwBsNb"><i
                                     class="uil uil-facebook-f"></i></a>
                             <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i
                                     class="uil uil-instagram"></i></a>

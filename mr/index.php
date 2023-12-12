@@ -24,6 +24,33 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
 
     list($first_half_odd, $second_half_odd) = split_array_in_half($franchise);
 }
+
+$gallery_video = array(
+    "mNDJTq8iCBA",
+    "YL24Df9mV8Q",
+    "Zct_oxedA6w",
+    "WMWx3-M1jUs",
+    "mtT5CbMQhAk",
+    "RNBS_3kOkiQ",
+    "1TA4kAP1BK4",
+    "TXd943R0vd0",
+    "awDXBCVsmG0",
+    "_MoeeM3It34",
+    "A_IGdKRrPTs",
+    "dYnaSKkqjU4",
+    "8lBOZZWsIQI",
+    "sk5irZaemck",
+    "Lo75qysGqEk",
+    "PcbLmnURINw",
+    "ahUuaQqa_6E",
+    "nXh_aeqMKNg",
+    "I57bFhH4vmA",
+    "sTLED8sBVeI",
+    "DKjtG5rzvyo",
+    "8tbBI_mPyog",
+    "QuzU8Wi3nHU"
+);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -77,8 +104,7 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                                     <a href="#" class="link-inverse"></a>
                                     <br />9987238461<br />
                                     <nav class="nav social social-white d-flex gap-2">
-                                        <a
-                                            href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i
+                                        <a href="https://www.facebook.com/themaharashtraudyog?mibextid=nwBsNb"><i
                                                 class="uil uil-facebook-f"></i></a>
                                         <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i
                                                 class="uil uil-instagram"></i></a>
@@ -142,10 +168,10 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                     <div class="row">
                         <div class="col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto" data-cues="zoomIn"
                             data-group="page-title" data-interval="-200" data-delay="500">
-                            <h2 class="h6 fs-25 text-uppercase ls-xl text-white mb-5">मी करेन उद्योग, मी होईन उद्योजक
+                            <h2 class="h6 fs-30 text-uppercase ls-xl text-white mb-5">मी करेन उद्योग, मी होईन उद्योजक
                                 !!!
                             </h2>
-                            <h3 class="display-1 fs-38 text-white mb-7">करू नका दुसऱ्याची चाकरी, स्वकष्टाने कमवा हक्काची
+                            <h3 class="display-1 fs-40 text-white mb-7">करू नका दुसऱ्याची चाकरी, स्वकष्टाने कमवा हक्काची
                                 भाकरी....
                             </h3>
                             <a href="https://www.youtube.com/watch?v=yOigqgubXx8"
@@ -287,7 +313,7 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                     <div class="swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/gallery_1.jpg" alt="" /></figure>
+                                <figure class="rounded"><img src="../assets/img/extras/gallery_9.jpg" alt="" /></figure>
                             </div>
                             <div class="swiper-slide">
                                 <figure class="rounded"><img src="../assets/img/extras/gallery_2.jpg" alt="" /></figure>
@@ -317,6 +343,35 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                     </div>
                 </div>
             </div>
+            <?php if (isset($gallery_video) && is_array($gallery_video)) { ?>
+            <div class="container-fluid px-md-6">
+                <div class="swiper-container blog grid-view mb-15" data-margin="30" data-nav="true" data-dots="true"
+                    data-items-xxl="3" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true"
+                    data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <?php for ($i = 0; $i < count($gallery_video); $i++) {  ?>
+                            <div class="swiper-slide">
+                                <div class="position-relative" data-cue="slideInDown" data-show="true"
+                                    style="animation-name: slideInDown; animation-duration: 700ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                                    <a href="https://www.youtube.com/watch?v=<?= $gallery_video[$i] ?>"
+                                        class="btn btn-circle btn-primary btn-play ripple mx-auto mb-6 position-absolute"
+                                        style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;"
+                                        data-glightbox="">
+                                        <i class="icn-caret-right"></i>
+                                    </a>
+                                    <figure class="rounded shadow-lg">
+                                        <img src="https://i.ytimg.com/vi/<?= $gallery_video[$i] ?>/hqdefault.jpg"
+                                            alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                            <?php } ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <?php } ?>
         </section>
     </div>
     <footer class="bg-dark text-inverse">
@@ -329,7 +384,7 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
                         <p class="mb-4">MaharashtraUdyog
                         </p>
                         <nav class="nav social social-white d-flex gap-2">
-                            <a href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i
+                            <a href="https://www.facebook.com/themaharashtraudyog?mibextid=nwBsNb"><i
                                     class="uil uil-facebook-f"></i></a>
                             <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i
                                     class="uil uil-instagram"></i></a>

@@ -49,8 +49,7 @@
                                     <a href="#" class="link-inverse"></a>
                                     <br />9987238461<br />
                                     <nav class="nav social social-white d-flex gap-2">
-                                        <a
-                                            href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i
+                                        <a href="https://www.facebook.com/themaharashtraudyog?mibextid=nwBsNb"><i
                                                 class="uil uil-facebook-f"></i></a>
                                         <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i
                                                 class="uil uil-instagram"></i></a>
@@ -80,7 +79,7 @@
             </nav>
         </header>
         <section class="wrapper bg-gray">
-            <div class="container pt-10 pt-md-14 text-center">
+            <div class="container pt-10 pt-md-10 text-center">
                 <div class="row">
                     <div class="col-xl-6 mx-auto">
                         <h1 class="display-1 mb-4">उदयोग कर उदयोग</h1>
@@ -262,9 +261,9 @@
                                 style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
                             <div class="card">
                                 <figure class="card-img-top"><img class="img-fluid"
-                                        src="../assets/img/extras/arbaz.jpeg" alt="" /></figure>
+                                        src="../assets/img/extras/Arbaz.jpeg" alt="" /></figure>
                                 <div class="card-body px-6 py-5">
-                                    <h4 class="mb-1">Arbaz</h4>
+                                    <h4 class="mb-1">Arbaz Khan</h4>
                                     <p class="mb-0">Senior Consultant</p>
                                 </div>
                             </div>
@@ -298,7 +297,7 @@
                         <p class="mb-4">MaharashtraUdyog
                         </p>
                         <nav class="nav social social-white d-flex gap-2">
-                            <a href="https://www.facebook.com/profile.php?id=100094602643469&mibextid=LQQJ4d"><i
+                            <a href="https://www.facebook.com/themaharashtraudyog?mibextid=nwBsNb"><i
                                     class="uil uil-facebook-f"></i></a>
                             <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i
                                     class="uil uil-instagram"></i></a>
