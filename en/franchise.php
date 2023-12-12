@@ -77,8 +77,8 @@ if (isset($curl_response_get_fr['status']) && $curl_response_get_fr['status'] ==
 
         if (isset($curl_response['status']) && $curl_response['status'] == "success") {
             echo "<script>Swal.fire({
-        title: 'Success',
-        text: 'Thank you. Our team will review your application and get back you soon.',
+        title: 'Thank you!!!',
+        text: 'Our team will review your application and get back you soon.',
         icon: 'success'
         });</script>";
         } else {
