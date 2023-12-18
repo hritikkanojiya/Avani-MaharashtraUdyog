@@ -576,9 +576,7 @@ if (isset($curl_response_get_fr['status']) && $curl_response_get_fr['status'] ==
     <script src="../assets/js/plugins.js"></script>
     <script src="../assets/js/theme.js"></script>
     <script>
-    if (window.history.replaceState) {
-        window.history.replaceState(null, null, window.location.href);
-    }
+
     </script>
 </body>
 
