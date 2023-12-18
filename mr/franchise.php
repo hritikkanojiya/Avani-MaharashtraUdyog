@@ -423,7 +423,7 @@ if (isset($curl_response_get_fr['status']) && $curl_response_get_fr['status'] ==
                                                         </div>
                                                         <div class="col-md-6">
                                                             <div class="form-floating mb-4">
-                                                                <input id="" type="text" name="job_desc"
+                                                                <input id="" type="text" name="comp_name"
                                                                     class="form-control"
                                                                     placeholder="नोकरीं करत असाल तर कंपनीचे नाव">
                                                                 <label for="">नोकरीं करत असाल तर कंपनीचे
@@ -443,7 +443,7 @@ if (isset($curl_response_get_fr['status']) && $curl_response_get_fr['status'] ==
                                                         <div class="col-md-12">
                                                             <div class="form-select-wrapper mb-4">
                                                                 <select class="form-select" id="form-select"
-                                                                    name="district" required>
+                                                                    name="intrest" required>
                                                                     <option selected disabled value="">तुम्ही कुठल्या
                                                                         क्षेत्रात व्यवसाय करू इच्छिता</option>
                                                                     <option value="AUTOMOBILE">AUTOMOBILE</option>

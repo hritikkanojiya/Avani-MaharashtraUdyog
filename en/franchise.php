@@ -22,10 +22,6 @@ if (isset($_POST['name'])) {
         echo "<script>alert('Something went wrong')</script>";
     }
 
-    echo '<pre>';
-    print_r($curl_response);
-    die();
-
     // header('Location: https://maharashtraudyog.com/mr/franchise.php?franchise_id=' . $_GET["franchise_id"]);
 }
 if (!isset($_GET['franchise_id'])) {
