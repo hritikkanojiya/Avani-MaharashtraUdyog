@@ -326,7 +326,116 @@ $gallery_video = array(
                     <div class="swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/gallery_9.jpg" alt="" /></figure>
+                                <figure class="rounded"><img src="../assets/img/extras/123232.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/1234432.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/12344523.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/123524.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/1235324.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/12354312.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/1435342.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/21345.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/23423.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/234234.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/2342343.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/23424.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/2343324.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/2343412.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/234432.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/2345123.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/234531.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/234532.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/234534.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/2345423.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/2353543.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/23543421.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/243124.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/243324.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/3242342.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/3245341.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/3412354.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/34534.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/345453.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/4213424.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/4312345.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/432312.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/4352342.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/5345232.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/5345t341.jpeg" alt="" /></figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/5433452.jpeg" alt="" /></figure>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <figure class="rounded"><img src="../assets/img/extras/gallery_1.jpg" alt="" /></figure>
                             </div>
                             <div class="swiper-slide">
                                 <figure class="rounded"><img src="../assets/img/extras/gallery_2.jpg" alt="" /></figure>
