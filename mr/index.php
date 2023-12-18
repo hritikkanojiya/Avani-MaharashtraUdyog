@@ -362,9 +362,6 @@ $gallery_video = array(
                                 <figure class="rounded"><img src="../assets/img/extras/23424.jpeg" alt="" /></figure>
                             </div>
                             <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/2343324.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
                                 <figure class="rounded"><img src="../assets/img/extras/2343412.jpeg" alt="" /></figure>
                             </div>
                             <div class="swiper-slide">
@@ -402,9 +399,6 @@ $gallery_video = array(
                             </div>
                             <div class="swiper-slide">
                                 <figure class="rounded"><img src="../assets/img/extras/3245341.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/3412354.jpeg" alt="" /></figure>
                             </div>
                             <div class="swiper-slide">
                                 <figure class="rounded"><img src="../assets/img/extras/34534.jpeg" alt="" /></figure>
