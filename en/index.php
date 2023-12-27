@@ -102,7 +102,8 @@ $gallery_video = array(
                                         No. 3, Lamington Road, Mumbai Central, Mumbai 400008
                                     </address>
                                     <a href="#" class="link-inverse"></a>
-                                    <br />9987238461<br />
+                                    <br> 7977335626, 8454984360
+                                    <br> 9820030971, 9987238461
                                     <nav class="nav social social-white d-flex gap-2">
                                         <a href="https://www.facebook.com/themaharashtraudyog?mibextid=nwBsNb"><i
                                                 class="uil uil-facebook-f"></i></a>
@@ -493,12 +494,12 @@ $gallery_video = array(
         <div class="container py-10 pb-10">
             <div class="row gy-6 gy-lg-0">
                 <div class="col-md-4 col-lg-4">
-                    <div class="widget">
-                        <img class="img-fluid mb-3" width="120px" src="../assets/img/logo.png"
+                    <div class="widget text-center">
+                        <img class="img-fluid mb-2" width="100px" src="../assets/img/logo.png"
                             srcset="../assets/img/logo.png 2x" alt="" />
-                        <p class="mb-4">MaharashtraUdyog
+                        <p class="mb-2">MaharashtraUdyog
                         </p>
-                        <nav class="nav social social-white d-flex gap-2">
+                        <nav class="nav social social-white d-flex justify-content-center gap-6">
                             <a href="https://www.facebook.com/themaharashtraudyog?mibextid=nwBsNb"><i
                                     class="uil uil-facebook-f"></i></a>
                             <a href="https://instagram.com/avnivan_mumbai?igshid=NzZlODBkYWE4Ng=="><i
@@ -510,28 +511,27 @@ $gallery_video = array(
                 </div>
                 <div class="col-md-4 col-lg-4">
                     <div class="widget">
-                        <h4 class="widget-title text-white mb-3">Get in Touch</h4>
+                        <h4 class="widget-title text-white mb-3">Get in Touch [InPerson]</h4>
                         <address class="pe-xl-15 pe-xxl-17">1206, Navjivan Commercial Co-Op Society, Gate no.2, Building
                             No. 3, Lamington Road, Mumbai Central, Mumbai 400008
                         </address>
-                        <a href="mailto:#">support@maharashtraudyog.com</a><br /> 7977335626 <br> 8454984360 <br>
-                        9820030971 <br>
-                        9987238461
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4">
                     <div class="widget">
-                        <h4 class="widget-title text-white mb-3">Learn More</h4>
-                        <ul class="list-unstyled mb-0">
-                            <li><a href="about.php">About Us</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                        </ul>
+                        <h4 class="widget-title text-white mb-3">Get in Touch [Virtual]</h4>
+                        <a href="mailto:#">support@maharashtraudyog.com</a>
+                        <br> 7977335626, 8454984360
+                        <br> 9820030971, 9987238461
                     </div>
+                </div>
+                <hr class="my-5">
+                <div class="fs-12">
+                    The information provided on this site is not intended as an offer to sell, or the solicitation of an offer to buy, a franchise. It is for informational purposes only. Any franchise offer made is by a Franchise Disclosure Document (FDD) registered in the applicable state. The FDD will include detailed information regarding the franchisor and the franchise opportunity. This website and the information contained herein do not constitute the offering of a franchise in any state or jurisdiction where such an offer or solicitation would be prohibited by law or regulation. The offer of a franchise can only be made through the delivery of a FDD in compliance with applicable laws and regulations. Furthermore, the franchise opportunities described on this website are only available in certain states and countries. Maharashtra Udyog will not offer or sell franchises in states or countries where registration or other requirements have not been fulfilled. Prospective franchisees are advised to carefully review the FDD and consult with legal and financial advisors before making any decision to invest in a franchise opportunity. The decision to purchase a franchise should be made after careful consideration of all information and factors involved. Maharashtra Udyog does not guarantee the success of any franchisee or the profitability of any franchise. Individual success will depend on a variety of factors, including the franchisee’s skill, effort, and dedication to operating the franchise business.
                 </div>
                 <hr class="my-5" />
                 <div class="d-md-flex align-items-center justify-content-center">
-                    <p class="mb-2 mb-lg-0">© 2023 MaharashtraUdyog. All rights reserved.</p>
+                    <p class="mb-lg-0">© 2023 MaharashtraUdyog. All rights reserved.</p>
                 </div>
             </div>
         </div>
