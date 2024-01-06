@@ -25,7 +25,53 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
     list($first_half_odd, $second_half_odd) = split_array_in_half($franchise);
 }
 
-$gallery_video = array(
+$gallery_images = [
+    "123232.jpeg",
+    "1234432.jpeg",
+    "12344523.jpeg",
+    "123524.jpeg",
+    "1235324.jpeg",
+    "12354312.jpeg",
+    "1435342.jpeg",
+    "21345.jpeg",
+    "23423.jpeg",
+    "234234.jpeg",
+    "2342343.jpeg",
+    "23424.jpeg",
+    "2343412.jpeg",
+    "234432.jpeg",
+    "2345123.jpeg",
+    "234531.jpeg",
+    "234532.jpeg",
+    "234534.jpeg",
+    "2345423.jpeg",
+    "2353543.jpeg",
+    "23543421.jpeg",
+    "243124.jpeg",
+    "243324.jpeg",
+    "3242342.jpeg",
+    "3245341.jpeg",
+    "34534.jpeg",
+    "345453.jpeg",
+    "4213424.jpeg",
+    "4312345.jpeg",
+    "432312.jpeg",
+    "4352342.jpeg",
+    "5345232.jpeg",
+    "5345t341.jpeg",
+    "5433452.jpeg",
+    "gallery_1.jpg",
+    "gallery_2.jpg",
+    "gallery_3.jpg",
+    "gallery_4.jpg",
+    "gallery_5.jpg",
+    "gallery_6.jpg",
+    "gallery_7.jpg",
+    "gallery_8.jpg",
+    "gallery_9.jpg",
+];
+
+$gallery_videos = array(
     "mNDJTq8iCBA",
     "YL24Df9mV8Q",
     "Zct_oxedA6w",
@@ -92,6 +138,7 @@ $gallery_video = array(
                                 <li class="nav-item"><a class="nav-link" href="about.php">About</a>
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#business-loan">Business Loan</a></li>
                             </ul>
                             <div class="offcanvas-footer d-lg-none">
                                 <div>
@@ -320,165 +367,44 @@ $gallery_video = array(
                     </div>
                 </div>
             </div>
+            <?php if (isset($gallery_images) && is_array($gallery_images)) { ?>
             <div class="container-fluid px-md-6">
                 <div class="swiper-container blog grid-view mb-15" data-margin="30" data-nav="true" data-dots="true"
                     data-items-xxl="3" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true"
                     data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
                     <div class="swiper">
                         <div class="swiper-wrapper">
+                            <?php for ($i = 0; $i < count($gallery_images); $i++) {  ?>
                             <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/123232.jpeg" alt="" /></figure>
+                                <figure class="rounded">
+                                    <img src="../assets/img/extras/<?= $gallery_images[$i] ?>" alt="" />
+                                </figure>
                             </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/1234432.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/12344523.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/123524.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/1235324.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/12354312.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/1435342.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/21345.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/23423.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/234234.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/2342343.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/23424.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/2343412.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/234432.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/2345123.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/234531.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/234532.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/234534.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/2345423.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/2353543.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/23543421.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/243124.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/243324.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/3242342.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/3245341.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/34534.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/345453.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/4213424.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/4312345.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/432312.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/4352342.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/5345232.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/5345t341.jpeg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/5433452.jpeg" alt="" /></figure>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/gallery_1.jpg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/gallery_2.jpg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/gallery_3.jpg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/gallery_4.jpg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/gallery_5.jpg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/gallery_6.jpg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/gallery_7.jpg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/gallery_8.jpg" alt="" /></figure>
-                            </div>
-                            <div class="swiper-slide">
-                                <figure class="rounded"><img src="../assets/img/extras/gallery_9.jpg" alt="" /></figure>
-                            </div>
+                            <?php } ?>
                         </div>
                     </div>
                 </div>
             </div>
-            <?php if (isset($gallery_video) && is_array($gallery_video)) { ?>
+            <?php } ?>
+            <?php if (isset($gallery_videos) && is_array($gallery_videos)) { ?>
             <div class="container-fluid px-md-6">
                 <div class="swiper-container blog grid-view mb-15" data-margin="30" data-nav="true" data-dots="true"
                     data-items-xxl="3" data-items-md="2" data-items-xs="1" data-speed="800" data-autoplay="true"
                     data-autoplaytime="2500" data-loop="true" data-drag="true" data-updateresize="true">
                     <div class="swiper">
                         <div class="swiper-wrapper">
-                            <?php for ($i = 0; $i < count($gallery_video); $i++) {  ?>
+                            <?php for ($i = 0; $i < count($gallery_videos); $i++) {  ?>
                             <div class="swiper-slide">
                                 <div class="position-relative" data-cue="slideInDown" data-show="true"
                                     style="animation-name: slideInDown; animation-duration: 700ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
-                                    <a href="https://www.youtube.com/watch?v=<?= $gallery_video[$i] ?>"
+                                    <a href="https://www.youtube.com/watch?v=<?= $gallery_videos[$i] ?>"
                                         class="btn btn-circle btn-primary btn-play ripple mx-auto mb-6 position-absolute"
                                         style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;"
                                         data-glightbox="">
                                         <i class="icn-caret-right"></i>
                                     </a>
                                     <figure class="rounded shadow-lg">
-                                        <img src="https://i.ytimg.com/vi/<?= $gallery_video[$i] ?>/hqdefault.jpg"
+                                        <img src="https://i.ytimg.com/vi/<?= $gallery_videos[$i] ?>/hqdefault.jpg"
                                             alt="">
                                     </figure>
                                 </div>
@@ -490,6 +416,38 @@ $gallery_video = array(
             </div>
             <?php } ?>
         </section>
+    </div>
+    <div class="modal fade" id="business-loan" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-sm">
+            <div class="modal-content text-center">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h2 class="mb-3 text-start">Welcome Back</h2>
+                    <p class="lead mb-6 text-start">Fill your email and password to sign in.</p>
+                    <form class="text-start mb-3">
+                        <div class="form-floating mb-4">
+                            <input type="email" class="form-control" placeholder="Email" id="loginEmail">
+                            <label for="loginEmail">Email</label>
+                        </div>
+                        <div class="form-floating password-field mb-4">
+                            <input type="password" class="form-control" placeholder="Password" id="loginPassword">
+                            <span class="password-toggle"><i class="uil uil-eye"></i></span>
+                            <label for="loginPassword">Password</label>
+                        </div>
+                        <a class="btn btn-primary rounded-pill btn-login w-100 mb-2">Sign In</a>
+                    </form>
+                    <p class="mb-1"><a href="#" class="hover">Forgot Password?</a></p>
+                    <p class="mb-0">Don't have an account? <a href="#" data-bs-target="#modal-signup"
+                            data-bs-toggle="modal" data-bs-dismiss="modal" class="hover">Sign up</a></p>
+                    <div class="divider-icon my-4">or</div>
+                    <nav class="nav social justify-content-center text-center">
+                        <a href="#" class="btn btn-circle btn-sm btn-google"><i class="uil uil-google"></i></a>
+                        <a href="#" class="btn btn-circle btn-sm btn-facebook-f"><i class="uil uil-facebook-f"></i></a>
+                        <a href="#" class="btn btn-circle btn-sm btn-twitter"><i class="uil uil-twitter"></i></a>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </div>
     <footer class="bg-dark text-inverse">
         <div class="container py-10 pb-10">
@@ -528,7 +486,22 @@ $gallery_video = array(
                 </div>
                 <hr class="my-5">
                 <div class="fs-12">
-                    The information provided on this site is not intended as an offer to sell, or the solicitation of an offer to buy, a franchise. It is for informational purposes only. Any franchise offer made is by a Franchise Disclosure Document (FDD) registered in the applicable state. The FDD will include detailed information regarding the franchisor and the franchise opportunity. This website and the information contained herein do not constitute the offering of a franchise in any state or jurisdiction where such an offer or solicitation would be prohibited by law or regulation. The offer of a franchise can only be made through the delivery of a FDD in compliance with applicable laws and regulations. Furthermore, the franchise opportunities described on this website are only available in certain states and countries. Maharashtra Udyog will not offer or sell franchises in states or countries where registration or other requirements have not been fulfilled. Prospective franchisees are advised to carefully review the FDD and consult with legal and financial advisors before making any decision to invest in a franchise opportunity. The decision to purchase a franchise should be made after careful consideration of all information and factors involved. Maharashtra Udyog does not guarantee the success of any franchisee or the profitability of any franchise. Individual success will depend on a variety of factors, including the franchisee’s skill, effort, and dedication to operating the franchise business.
+                    The information provided on this site is not intended as an offer to sell, or the solicitation of an
+                    offer to buy, a franchise. It is for informational purposes only. Any franchise offer made is by a
+                    Franchise Disclosure Document (FDD) registered in the applicable state. The FDD will include
+                    detailed information regarding the franchisor and the franchise opportunity. This website and the
+                    information contained herein do not constitute the offering of a franchise in any state or
+                    jurisdiction where such an offer or solicitation would be prohibited by law or regulation. The offer
+                    of a franchise can only be made through the delivery of a FDD in compliance with applicable laws and
+                    regulations. Furthermore, the franchise opportunities described on this website are only available
+                    in certain states and countries. Maharashtra Udyog will not offer or sell franchises in states or
+                    countries where registration or other requirements have not been fulfilled. Prospective franchisees
+                    are advised to carefully review the FDD and consult with legal and financial advisors before making
+                    any decision to invest in a franchise opportunity. The decision to purchase a franchise should be
+                    made after careful consideration of all information and factors involved. Maharashtra Udyog does not
+                    guarantee the success of any franchisee or the profitability of any franchise. Individual success
+                    will depend on a variety of factors, including the franchisee’s skill, effort, and dedication to
+                    operating the franchise business.
                 </div>
                 <hr class="my-5" />
                 <div class="d-md-flex align-items-center justify-content-center">
