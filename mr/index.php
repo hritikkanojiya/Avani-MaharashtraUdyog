@@ -142,7 +142,7 @@ $gallery_videos = array(
 </head>
 
 <body>
-<?php
+    <?php
     if (isset($_POST['name'])) {
 
         if (isset($application_curl['status']) && $application_curl['status'] == "success") {
@@ -397,6 +397,12 @@ $gallery_videos = array(
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="text-center pt-10">
+                    <a href="https://maharashtraudyog.com/en/franchise_listing.php"
+                        class="btn btn-sm btn-outline-primary rounded-pill">
+                        <span>List all Franchise</span>
+                    </a>
                 </div>
             </div>
         </section>
