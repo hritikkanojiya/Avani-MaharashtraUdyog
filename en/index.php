@@ -602,8 +602,7 @@ echo '<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>';
                                 <div class="col-md-12">
                                     <div class="form-select-wrapper mb-4">
                                         <select class="form-select" id="form-select" name="intrest" required>
-                                            <option selected disabled value="">तुम्ही कुठल्या
-                                                क्षेत्रात व्यवसाय करू इच्छिता</option>
+                                            <option selected disabled value="">तुम्ही सध्या कुठला व्यवसाय करता?</option>
                                             <option value="AUTOMOBILE">AUTOMOBILE</option>
                                             <option value="ICE-CREAM">ICE-CREAM</option>
                                             <option value="AMRUTULYA CHAHA">AMRUTULYA CHAHA
