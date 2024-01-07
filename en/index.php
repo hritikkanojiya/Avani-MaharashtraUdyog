@@ -1,4 +1,22 @@
 <?php
+if (isset($_POST['name'])) {
+    $ch = curl_init();
+
+    curl_setopt($ch, CURLOPT_URL, "https://backend.maharashtraudyog.com/modules/submit_application");
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $_POST);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+        'Accept: application/json',
+    ));
+    $curl_request = curl_exec($ch);
+
+    curl_close($ch);
+    $application_curl = json_decode($curl_request, true);
+    $franchise = array();
+}
+
 $ch = curl_init();
 
 curl_setopt($ch, CURLOPT_URL, "https://backend.maharashtraudyog.com/modules/get_all_franchise");
@@ -115,9 +133,32 @@ $gallery_videos = array(
         display: none;
     }
     </style>
+    <?php
+
+echo '<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>';
+
+?>
 </head>
 
 <body>
+    <?php
+    if (isset($_POST['name'])) {
+
+        if (isset($application_curl['status']) && $application_curl['status'] == "success") {
+            echo "<script>Swal.fire({
+            title: 'Thank you!!!',
+            text: 'Our team will review your application and get back you soon.',
+            icon: 'success'
+            });</script>";
+        } else {
+            echo "<script>Swal.fire({
+            title: 'Failed',
+            text: 'Something went wrong',
+            icon: 'error'
+            });</script>";
+        }
+    }
+?>
     <div class="content-wrapper">
         <header class="wrapper bg-gray">
             <nav class="navbar navbar-expand-lg center-logo transparent navbar-light">
@@ -138,6 +179,8 @@ $gallery_videos = array(
                                 <li class="nav-item"><a class="nav-link" href="about.php">About</a>
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#" data-bs-toggle="modal"
+                                        data-bs-target="#business-loan">Business Loan</a></li>
                             </ul>
                             <div class="offcanvas-footer d-lg-none">
                                 <div>
@@ -353,6 +396,12 @@ $gallery_videos = array(
                         </div>
                     </div>
                 </div>
+                <div class="text-center pt-10">
+                    <a href="https://maharashtraudyog.com/en/franchise_listing.php"
+                        class="btn btn-sm btn-outline-primary rounded-pill">
+                        <span>List all Franchise</span>
+                    </a>
+                </div>
             </div>
         </section>
         <section class="wrapper bg-light" id="gallery">
@@ -376,7 +425,7 @@ $gallery_videos = array(
                             <div class="swiper-slide">
                                 <figure class="rounded">
                                     <img src="../assets/img/extras/<?= $gallery_images[$i] ?>" alt="" />
-                                    </figure>
+                                </figure>
                             </div>
                             <?php } ?>
                         </div>
@@ -414,6 +463,204 @@ $gallery_videos = array(
             </div>
             <?php } ?>
         </section>
+    </div>
+    <div class="modal fade" id="business-loan" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content text-center">
+                <div class="modal-body pb-5">
+                    <div class="row">
+                        <form class="" method="post" action="https://maharashtraudyog.com/en/index.php">
+                            <div class="row gx-4">
+                                <div class="col-md-8">
+                                    <div class="form-floating mb-4">
+                                        <input id="form_name" type="text" name="name" class="form-control"
+                                            placeholder="Name of Customer" required>
+                                        <label for="form_name">Name of Customer</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-floating mb-4">
+                                        <input id="form_lasstname" type="date" name="dob" class="form-control"
+                                            placeholder="Date Of Birth" required>
+                                        <label for="form_lastname">Date of Birth
+                                            *</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-floating mb-4">
+                                        <input id="" type="text" name="contact" class="form-control"
+                                            placeholder="Contact Number" required>
+                                        <label for="">Contact Number
+                                            *</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-floating mb-4">
+                                        <input id="" type="text" name="whatsapp" class="form-control"
+                                            placeholder="WhatsApp Number" required>
+                                        <label for="">WhatsApp Number
+                                            *</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-select-wrapper mb-4">
+                                        <select class="form-select" id="form-select" name="cast" required>
+                                            <option selected disabled value="">Select cast
+                                            </option>
+                                            <option value="Maratha">Maratha</option>
+                                            <option value="OBC">OBC</option>
+                                            <option value="VJNT">VJNT</option>
+                                            <option value="SC/ST">SC/ST</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-select-wrapper mb-4">
+                                        <select class="form-select" id="form-select" name="maritial" required>
+                                            <option selected disabled value="">Marital Status
+                                            </option>
+                                            <option value="Married">Married</option>
+                                            <option value="Unmarried">Unmarried</option>
+                                            <option value="Widow">Widow</option>
+                                            <option value="Divorsee">Divorsee</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-select-wrapper mb-4">
+                                        <select class="form-select" id="form-select" name="district" required>
+                                            <option selected disabled value="">महाराष्ट्रातील 35
+                                                जिल्हे
+                                            </option>
+                                            <option value="अहमदनगर">अहमदनगर</option>
+                                            <option value="अकोला">अकोला</option>
+                                            <option value="अमरावती">अमरावती</option>
+                                            <option value="संभाजीनगर">संभाजीनगर</option>
+                                            <option value="बीड">बीड</option>
+                                            <option value="भंडारा">भंडारा</option>
+                                            <option value="बुलढाणा">बुलढाणा</option>
+                                            <option value="चंद्रपुर">चंद्रपुर</option>
+                                            <option value="धुळे">धुळे</option>
+                                            <option value="गडचिरोली">गडचिरोली</option>
+                                            <option value="गोंदिया">गोंदिया</option>
+                                            <option value="हिंगोली">हिंगोली</option>
+                                            <option value="जळगांव">जळगांव</option>
+                                            <option value="जालना">जालना</option>
+                                            <option value="कोल्हापूर">कोल्हापूर</option>
+                                            <option value="लातूर">लातूर</option>
+                                            <option value="मुंबई">मुंबई</option>
+                                            <option value="नागपूर">नागपूर</option>
+                                            <option value="नांदेड">नांदेड</option>
+                                            <option value="नंदुरबार">नंदुरबार</option>
+                                            <option value="नाशिक">नाशिक</option>
+                                            <option value="उस्मानाबाद">उस्मानाबाद</option>
+                                            <option value="पालघर">पालघर</option>
+                                            <option value="परभणी">परभणी</option>
+                                            <option value="पुणे">पुणे</option>
+                                            <option value="रायगड">रायगड</option>
+                                            <option value="रत्नागिरी">रत्नागिरी</option>
+                                            <option value="सातारा">सातारा</option>
+                                            <option value="सांगली">सांगली</option>
+                                            <option value="सिंधुदुर्ग">सिंधुदुर्ग</option>
+                                            <option value="सोलापूर">सोलापूर</option>
+                                            <option value="ठाणे">ठाणे</option>
+                                            <option value="वर्धा">वर्धा</option>
+                                            <option value="वाशिम">वाशिम</option>
+                                            <option value="यवतमाळ">यवतमाळ</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-select-wrapper mb-4">
+                                        <select class="form-select" id="form-select" name="job">
+                                            <option selected disabled value="">तुम्ही नोकरीं
+                                                करता कि व्यवसाय ?
+                                            </option>
+                                            <option value="नोकरी">नोकरी</option>
+                                            <option value="व्यवसाय">व्यवसाय</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-4">
+                                        <input id="" type="text" name="comp_name" class="form-control"
+                                            placeholder="नोकरीं करत असाल तर कंपनीचे नाव">
+                                        <label for="">नोकरीं करत असाल तर कंपनीचे
+                                            नाव</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-4">
+                                        <input id="" type="text" name="job_desc" class="form-control"
+                                            placeholder="व्यवसाय करत असाल तर तुमच्या प्रॉडक्ट आणि कंपनीचे नाव">
+                                        <label for="" class="text-truncate w-100">व्यवसाय करत
+                                            असाल तर तुमच्या
+                                            प्रॉडक्ट आणि कंपनीचे नाव</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-select-wrapper mb-4">
+                                        <select class="form-select" id="form-select" name="intrest" required>
+                                            <option selected disabled value="">तुम्ही कुठल्या
+                                                क्षेत्रात व्यवसाय करू इच्छिता</option>
+                                            <option value="AUTOMOBILE">AUTOMOBILE</option>
+                                            <option value="ICE-CREAM">ICE-CREAM</option>
+                                            <option value="AMRUTULYA CHAHA">AMRUTULYA CHAHA
+                                            </option>
+                                            <option value="FMCG">FMCG</option>
+                                            <option value="FOOD ON WHEEL (FOOD VAN)">FOOD ON
+                                                WHEEL (FOOD VAN)</option>
+                                            <option value="BAKERY">BAKERY</option>
+                                            <option value="FISH FARMING">FISH FARMING</option>
+                                            <option value="ORGANIC FOOD">ORGANIC FOOD</option>
+                                            <option value="KOKAN PRODUCTS">KOKAN PRODUCTS
+                                            </option>
+                                            <option value="SNACKS & NAMKIN">SNACKS & NAMKIN
+                                            </option>
+                                            <option value="MISAL FRANCHISE">MISAL FRANCHISE
+                                            </option>
+                                            <option value="SPICES">SPICES</option>
+                                            <option value="READY TO MIX">READY TO MIX</option>
+                                            <option value="HEALTHCARE">HEALTHCARE</option>
+                                            <option value="DAIRY PRODUCTS">DAIRY PRODUCTS
+                                            </option>
+                                            <option value="PACKAGED DRINKING WATER">PACKAGED
+                                                DRINKING WATER</option>
+                                            <option value="OTHER PLEASE SPECIFY">OTHER</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating mb-4">
+                                        <textarea id="form_message" name="address" class="form-control"
+                                            placeholder="Your address" style="height: 150px" required></textarea>
+                                        <label for="form_message">Address
+                                            *</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-check mb-4">
+                                        <input class="form-check-input" type="checkbox" value="" name="acknowledgement"
+                                            id="flexCheckChecked" required>
+                                        <label class="form-check-label fs-15 float-start" for="flexCheckChecked">मीं
+                                            दिलेली
+                                            माहिती खरी असून मला सदर फ्रँचायसी व्यवसाय करण्यास
+                                            मिळावी ही विनंती.
+                                            *
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3"
+                                        value="Apply Now">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <footer class="bg-dark text-inverse">
         <div class="container py-10 pb-10">

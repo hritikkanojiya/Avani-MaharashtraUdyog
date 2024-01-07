@@ -66,7 +66,7 @@ if (isset($curl_response_get_fr['status']) && $curl_response_get_fr['status'] ==
 </head>
 
 <body>
-    <?php
+<?php
     if (isset($_POST['name'])) {
 
         if (isset($curl_response['status']) && $curl_response['status'] == "success") {
@@ -83,9 +83,7 @@ if (isset($curl_response_get_fr['status']) && $curl_response_get_fr['status'] ==
             });</script>";
         }
     }
-
-
-    ?>
+?>
     <div class="content-wrapper">
         <header class="wrapper bg-gray">
             <nav class="navbar navbar-expand-lg center-logo transparent navbar-light">
