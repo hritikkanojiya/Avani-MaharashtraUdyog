@@ -324,8 +324,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="widget">
                         <h4 class="widget-title text-white mb-3">Get in Touch [InPerson]</h4>
-                        <address class="pe-xl-15 pe-xxl-17">1206, Navjivan Commercial Co-Op Society, Gate no.2, Building
-                            No. 3, Lamington Road, Mumbai Central, Mumbai 400008
+                        <address class="pe-xl-15 pe-xxl-17">1206/1209,Navjivan Commercial Co-Op Society, Gate no.2, Building No. 3, Lamington Road, Mumbai Central, Mumbai 400008
                         </address>
                     </div>
                 </div>

@@ -122,9 +122,9 @@
                                             </div>
                                             <div class="align-self-start justify-content-start">
                                                 <h5 class="mb-1">Address</h5>
-                                                <address>1206, Navjivan Commercial Co-Op Society, Gate no.2, Building
-                                                    No. 3, Lamington Road, Mumbai Central,
-                                                    Mumbai 400008</address>
+                                                <address>1206/1209,Navjivan Commercial Co-Op Society, Gate no.2,
+                                                    Building No. 3, Lamington Road, Mumbai Central, Mumbai 400008
+                                                </address>
                                             </div>
                                         </div>
                                         <div class="d-flex flex-row">
@@ -136,8 +136,12 @@
                                                 <h5 class="mb-1">Phone</h5>
                                                 <p>
                                                     +91 98200 30971
-                                                    <br />
-                                                    9987238461
+                                                    <br>
+                                                    +91 99872 38461
+                                                    <br>
+                                                    +91 84549 84360
+                                                    <br>
+                                                    +91 81697 17562
                                                 </p>
                                             </div>
                                         </div>
@@ -159,7 +163,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-10 mx-auto mt-20">
+                    <div class="col-xl-10 mx-auto mt-20 d-none">
                         <div class="card">
                             <div class="shape bg-dot primary rellax w-22 h-21 z-1 mt-n10" data-rellax-speed="1"
                                 style="top: -2rem; right: -5rem;"></div>
@@ -307,8 +311,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="widget">
                         <h4 class="widget-title text-white mb-3">Get in Touch [InPerson]</h4>
-                        <address class="pe-xl-15 pe-xxl-17">1206, Navjivan Commercial Co-Op Society, Gate no.2, Building
-                            No. 3, Lamington Road, Mumbai Central, Mumbai 400008
+                        <address class="pe-xl-15 pe-xxl-17">1206/1209,Navjivan Commercial Co-Op Society, Gate no.2, Building No. 3, Lamington Road, Mumbai Central, Mumbai 400008
                         </address>
                     </div>
                 </div>
@@ -322,7 +325,22 @@
                 </div>
                 <hr class="my-5">
                 <div class="fs-12">
-                    The information provided on this site is not intended as an offer to sell, or the solicitation of an offer to buy, a franchise. It is for informational purposes only. Any franchise offer made is by a Franchise Disclosure Document (FDD) registered in the applicable state. The FDD will include detailed information regarding the franchisor and the franchise opportunity. This website and the information contained herein do not constitute the offering of a franchise in any state or jurisdiction where such an offer or solicitation would be prohibited by law or regulation. The offer of a franchise can only be made through the delivery of a FDD in compliance with applicable laws and regulations. Furthermore, the franchise opportunities described on this website are only available in certain states and countries. Maharashtra Udyog will not offer or sell franchises in states or countries where registration or other requirements have not been fulfilled. Prospective franchisees are advised to carefully review the FDD and consult with legal and financial advisors before making any decision to invest in a franchise opportunity. The decision to purchase a franchise should be made after careful consideration of all information and factors involved. Maharashtra Udyog does not guarantee the success of any franchisee or the profitability of any franchise. Individual success will depend on a variety of factors, including the franchisee’s skill, effort, and dedication to operating the franchise business.
+                    The information provided on this site is not intended as an offer to sell, or the solicitation of an
+                    offer to buy, a franchise. It is for informational purposes only. Any franchise offer made is by a
+                    Franchise Disclosure Document (FDD) registered in the applicable state. The FDD will include
+                    detailed information regarding the franchisor and the franchise opportunity. This website and the
+                    information contained herein do not constitute the offering of a franchise in any state or
+                    jurisdiction where such an offer or solicitation would be prohibited by law or regulation. The offer
+                    of a franchise can only be made through the delivery of a FDD in compliance with applicable laws and
+                    regulations. Furthermore, the franchise opportunities described on this website are only available
+                    in certain states and countries. Maharashtra Udyog will not offer or sell franchises in states or
+                    countries where registration or other requirements have not been fulfilled. Prospective franchisees
+                    are advised to carefully review the FDD and consult with legal and financial advisors before making
+                    any decision to invest in a franchise opportunity. The decision to purchase a franchise should be
+                    made after careful consideration of all information and factors involved. Maharashtra Udyog does not
+                    guarantee the success of any franchisee or the profitability of any franchise. Individual success
+                    will depend on a variety of factors, including the franchisee’s skill, effort, and dedication to
+                    operating the franchise business.
                 </div>
                 <hr class="my-5" />
                 <div class="d-md-flex align-items-center justify-content-center">
