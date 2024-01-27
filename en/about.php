@@ -236,7 +236,7 @@
                     </div>
                 </div>
                 <div class="row grid-view gx-md-8 gx-xl-10 gy-8 gy-lg-0">
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6 col-lg-4">
                         <div class="position-relative">
                             <div class="shape rounded bg-soft-blue rellax d-md-block" data-rellax-speed="0"
                                 style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
@@ -250,7 +250,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6 col-lg-4">
                         <div class="position-relative">
                             <div class="shape rounded bg-soft-red rellax d-md-block" data-rellax-speed="0"
                                 style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
@@ -264,7 +264,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
+                    <!-- <div class="col-md-6 col-lg-3">
                         <div class="position-relative">
                             <div class="shape rounded bg-soft-green rellax d-md-block" data-rellax-speed="0"
                                 style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
@@ -277,8 +277,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
+                    </div> -->
+                    <div class="col-md-6 col-lg-4">
                         <div class="position-relative">
                             <div class="shape rounded bg-soft-violet rellax d-md-block" data-rellax-speed="0"
                                 style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
