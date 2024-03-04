@@ -44,22 +44,7 @@ if (isset($curl_response['status']) && $curl_response['status'] == "success") {
 }
 
 $gallery_images = [
-    "19e4e368-a73f-4198-9da8-54d6e9b5974c.jfif",
-    "35a53388-06a9-4110-b88e-42686b261005.jfif",
-    "38a57d0d-196e-419f-b573-81c7b7f195fa.jfif",
-    "66983f95-3a91-4008-b3a1-350eb67ed011.jfif",
-    "67b26f81-1c04-403b-a084-2b7da80f0d2d.jfif",
-    "691c73d4-988a-4351-b39f-a709b9549c32.jfif",
-    "7bfae601-a301-434e-9582-040958059b80.jfif",
-    "879b163b-cd39-4931-bf1b-2286ca55f1df.jfif",
-    "9a035d68-ceb5-474f-bfcc-d20be96250ec.jfif",
-    "aa4b0556-cc5c-469a-9437-b7606fe39a10.jfif",
-    "c7ef2df2-661f-463c-8bed-795a2ae41312.jfif",
-    "d4c03a60-5bcd-4c19-aa8d-348afcb95243.jfif",
-    "d85c660b-7933-4fb9-8fb5-19c725d2ad69.jfif",
-    "e08a0be4-7c47-4844-ab42-348a448e10b8.jfif",
-    "e1b9a667-5430-4176-b27d-542ce0830c71.jfif",
-    "fb307552-7d1e-46f6-8d6a-c25a7b9a86c2.jfif",
+    "1.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "17.jpg", "18.jpg", "19.jpg", "2.jpg", "20.jpg", "21.jpg", "222.jpg", "23.jpg", "24.jpg", "25.jpg", "26.jpg", "27.jpg", "28.jpg", "29.jpg", "3.jpg", "30.jpg", "31.jpg", "32.jpg", "333.jpg", "3333.jpg", "34.jpg", "35.jpg", "36.jpg", "4.jpg", "488.jpg", "5.jpg", "50.jpg", "54.jpg", "6.jpg", "654.jpg", "66.jpg", "7.jpg", "777.jpg", "8.jpg", "88.jpg", "895.jpg", "9+889.jpg", "9.jpg", "9879.jpg", "99.jpg", "o.jpg", "q.jpg", "t.jpg", "w.jpg", "y.jpg",
     "123232.jpeg",
     "1234432.jpeg",
     "12344523.jpeg",
